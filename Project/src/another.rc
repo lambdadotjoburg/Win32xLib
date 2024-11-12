@@ -1,0 +1,8 @@
+// this is a test resource file
+
+// This is a client-code resource file,
+// i.e. the src folder is a folder where
+// the programmer/developer making use of xLib
+// may be writing some resource files to link to the executable ...
+
+1 BITMAP "../dependencies/img/bmp/setup.bmp"
