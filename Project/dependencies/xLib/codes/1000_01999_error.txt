@@ -1,0 +1,392 @@
+1238 A connection to the server could not be madebecause the limit on the number of concurrentconnections for this account has been reached.ERROR_CONNECTION_COUNT_LIMIT
+1239 Attempting to log in during an unauthorized time ofday for this account.ERROR_LOGIN_TIME_RESTRICTION
+1240 The account is not authorized to log in from thisstation.ERROR_LOGIN_WKSTA_RESTRICTION
+1241 The network address could not be used for theoperation requested.ERROR_INCORRECT_ADDRESS
+1242 The service is already registered. ERROR_ALREADY_REGISTERED
+1243 The specified service does not exist. ERROR_SERVICE_NOT_FOUND
+1244 The operation being requested was not performedbecause the user has not been authenticated.ERROR_NOT_AUTHENTICATED
+1245 The operation being requested was not performedbecause the user has not logged on to the network. The specified service does not exist.ERROR_NOT_LOGGED_ON
+1246 Continue with work in progress. ERROR_CONTINUE
+1247 An attempt was made to perform an initializationoperation when initialization has already beencompleted.ERROR_ALREADY_INITIALIZED
+1248 No more local devices. ERROR_NO_MORE_DEVICES
+1249 The specified site does not exist. ERROR_NO_SUCH_SITE
+1250 A domain controller with the specified name alreadyexists.ERROR_DOMAIN_CONTROLLER_EXISTS
+1251 This operation is supported only when you areconnected to the server.ERROR_ONLY_IF_CONNECTED
+
+1300 Not all privileges referenced are assigned to thecaller.ERROR_NOT_ALL_ASSIGNED
+1301 Some mapping between account names andsecurity IDs was not done.ERROR_SOME_NOT_MAPPED
+1302 No system quota limits are specifically set for thisaccount.ERROR_NO_QUOTAS_FOR_ACCOUNT
+1303 No encryption key is available. A well-knownencryption key was returned.ERROR_LOCAL_USER_SESSION_KEY
+1304 The Windows NT password is too complex to beconverted to a LAN Manager password. The LANManager password returned is a NULL string.ERROR_NULL_LM_PASSWORD
+1305 The revision level is unknown. ERROR_UNKNOWN_REVISION
+1306 Indicates two revision levels are incompatible. ERROR_REVISION_MISMATCH
+1307 This security ID cannot be assigned as the owner ofthis object.ERROR_INVALID_OWNER
+1308 This security ID cannot be assigned as the primarygroup of an object.ERROR_INVALID_PRIMARY_GROUP
+1309 An attempt has been made to operate on animpersonation token by a thread that is not currentlyimpersonating a client.ERROR_NO_IMPERSONATION_TOKEN
+1310 The group cannot be disabled. ERROR_CANT_DISABLE_MANDATORY
+1311 There are currently no logon servers available toservice the logon request.ERROR_NO_LOGON_SERVERS
+1312 A specified logon session does not exist. It canalready have been terminated.ERROR_NO_SUCH_LOGON_SESSION
+1313 A specified privilege does not exist. ERROR_NO_SUCH_PRIVILEGE
+1314 A required privilege is not held by the client. ERROR_PRIVILEGE_NOT_HELD
+1315 The name provided is not a properly formed accountname.ERROR_INVALID_ACCOUNT_NAME
+1316 The specified user already exists. ERROR_USER_EXISTS
+1317 The specified user does not exist. ERROR_NO_SUCH_USER
+1318 The specified group already exists. ERROR_GROUP_EXISTS
+1319 The specified group does not exist. ERROR_NO_SUCH_GROUP
+1320 Either the specified user account is already amember of the specified group, or the specifiedgroup cannot be deleted because it contains amember.ERROR_MEMBER_IN_GROUP
+1321 The specified user account is not a member of thespecified group account.ERROR_MEMBER_NOT_IN_GROUP
+1322 The last remaining administration account cannot bedisabled or deleted.ERROR_LAST_ADMIN
+1323 Unable to update the password. The value providedas the current password is incorrect.ERROR_WRONG_PASSWORD
+1324 Unable to update the password. The value providedfor the new password contains values that are notallowed in passwords.ERROR_ILL_FORMED_PASSWORD
+1325 Unable to update the password because a passwordupdate rule has been violated.ERROR_PASSWORD_RESTRICTION
+1326 Logon failure: unknown user name or badpassword.ERROR_LOGON_FAILURE
+1327 Logon failure: user account restriction. ERROR_ACCOUNT_RESTRICTION
+1328 Logon failure: account logon time restrictionviolation.ERROR_INVALID_LOGON_HOURS
+1329 Logon failure: user not allowed to log on to thiscomputer.ERROR_INVALID_WORKSTATION
+1330 Logon failure: the specified account password hasexpired.ERROR_PASSWORD_EXPIRED
+1331 Logon failure: account currently disabled. ERROR_ACCOUNT_DISABLED
+1332 No mapping between account names and securityIDs was done.ERROR_NONE_MAPPED
+1333 Too many local user identifiers (LUIDs) wererequested at one time.ERROR_TOO_MANY_LUIDS_REQUESTED
+1334 No more local user identifiers (LUIDs) are available. ERROR_LUIDS_EXHAUSTED
+1335 The subauthority part of a security ID is invalid forthis particular use.ERROR_INVALID_SUB_AUTHORITY
+1336 The access control list (ACL) structure is invalid. ERROR_INVALID_ACL
+1337 The security ID structure is invalid. ERROR_INVALID_SID
+1338 The security descriptor structure is invalid. ERROR_INVALID_SECURITY_DESCR
+
+1340 The inherited access control list (ACL) or accesscontrol entry (ACE) could not be built.ERROR_BAD_INHERITANCE_ACL
+1341 The server is currently disabled. ERROR_SERVER_DISABLED
+1342 The server is currently enabled. ERROR_SERVER_NOT_DISABLED
+1343 The value provided was an invalid value for anidentifier authority. ERROR_INVALID_ID_AUTHORITY
+1344 No more memory is available for security informationupdates.ERROR_ALLOTTED_SPACE_EXCEEDED
+1345 The specified attributes are invalid, or incompatiblewith the attributes for the group as a whole.ERROR_INVALID_GROUP_ATTRIBUTES
+1346 Either a required impersonation level was notprovided, or the provided impersonation level isinvalid.ERROR_BAD_IMPERSONATION_LEVEL
+1347 Cannot open an anonymous level security token. ERROR_CANT_OPEN_ANONYMOUS
+1348 The validation information class requested wasinvalid.ERROR_BAD_VALIDATION_CLASS
+1349 The type of the token is inappropriate for itsattempted use.ERROR_BAD_TOKEN_TYPE
+1350 Unable to perform a security operation on an objectthat has no associated security.ERROR_NO_SECURITY_ON_OBJECT
+1351 Configuration information could not be read from thedomain controller, either because the machine isunavailable, or access has been denied.ERROR_CANT_ACCESS_DOMAIN_INFO
+1352 The security account manager (SAM) or localsecurity authority (LSA) server was in the wrongstate to perform the security operation.ERROR_INVALID_SERVER_STATE
+1353 The domain was in the wrong state to perform thesecurity operation.ERROR_INVALID_DOMAIN_STATE
+1354 This operation is only allowed for the PrimaryDomain Controller of the domain.ERROR_INVALID_DOMAIN_ROLE
+1355 The specified domain did not exist. ERROR_NO_SUCH_DOMAIN
+1356 The specified domain already exists. ERROR_DOMAIN_EXISTS
+1357 An attempt was made to exceed the limit on thenumber of domains per server.ERROR_DOMAIN_LIMIT_EXCEEDED
+1358 Unable to complete the requested operationbecause of either a catastrophic media failure or adata structure corruption on the disk.ERROR_INTERNAL_DB_CORRUPTION
+1359 The security account database contains an internal inconsistency.ERROR_INTERNAL_ERROR
+1360 Generic access types were contained in an accessmask which should already be mapped tonongeneric types.ERROR_GENERIC_NOT_MAPPED
+1361 A security descriptor is not in the right format(absolute or self-relative).ERROR_BAD_DESCRIPTOR_FORMAT
+1362 The requested action is restricted for use by logonprocesses only. The calling process has notregistered as a logon process.ERROR_NOT_LOGON_PROCESS
+1363 Cannot start a new logon session with an ID that isalready in use.ERROR_LOGON_SESSION_EXISTS
+1364 A specified authentication package is unknown. ERROR_NO_SUCH_PACKAGE
+1365 The logon session is not in a state that is consistentwith the requested operation.ERROR_BAD_LOGON_SESSION_STATE
+1366 The logon session ID is already in use. ERROR_LOGON_SESSION_COLLISION
+1367 A logon request contained an invalid logon typevalue.ERROR_INVALID_LOGON_TYPE
+1368 Unable to impersonate using a named pipe until datahas been read from that pipe.ERROR_CANNOT_IMPERSONATE
+1369 The transaction state of a registry subtree isincompatible with the requested operation.ERROR_RXACT_INVALID_STATE
+1370 An internal security database corruption has beenencountered.ERROR_RXACT_COMMIT_FAILURE
+1371 Cannot perform this operation on built-in accounts. ERROR_SPECIAL_ACCOUNT
+1372 Cannot perform this operation on this built-in specialgroup.ERROR_SPECIAL_GROUP
+1373 Cannot perform this operation on this built-in specialuser.ERROR_SPECIAL_USER
+1374 The user cannot be removed from a group becausethe group is currently the user's primary group. ERROR_MEMBERS_PRIMARY_GROUP
+1375 The token is already in use as a primary token. ERROR_TOKEN_ALREADY_IN_USE
+1376 The specified local group does not exist. ERROR_NO_SUCH_ALIAS
+1377 The specified account name is not a member of thelocal group.ERROR_MEMBER_NOT_IN_ALIAS
+1378 The specified account name is already a member ofthe local group.ERROR_MEMBER_IN_ALIAS
+1379 The specified local group already exists. ERROR_ALIAS_EXISTS
+1380 Logon failure: the user has not been granted therequested logon type at this computer.ERROR_LOGON_NOT_GRANTED
+1381 The maximum number of secrets that can be storedin a single system has been exceeded.ERROR_TOO_MANY_SECRETS
+1382 The length of a secret exceeds the maximum lengthallowed.ERROR_SECRET_TOO_LONG
+1383 The local security authority database contains aninternal inconsistency.ERROR_INTERNAL_DB_ERROR
+1384 During a logon attempt, the user's security contextaccumulated too many security IDs.ERROR_TOO_MANY_CONTEXT_IDS
+1385 Logon failure: the user has not been granted therequested logon type at this computer.ERROR_LOGON_TYPE_NOT_GRANTED
+1386 A cross-encrypted password is necessary to changea user password.ERROR_NT_CROSS_ENCRYPTION_REQUIRED
+1387 A new member could not be added to a local groupbecause the member does not exist.ERROR_NO_SUCH_MEMBER
+1388 A new member could not be added to a local groupbecause the member has the wrong account type.ERROR_INVALID_MEMBER
+1389 Too many security IDs have been specified. ERROR_TOO_MANY_SIDS
+1390 A cross-encrypted password is necessary to changethis user password.ERROR_LM_CROSS_ENCRYPTION_REQUIRED
+1391 Indicates an ACL contains no inheritablecomponents.ERROR_NO_INHERITANCE
+1392 The file or directory is corrupted and unreadable. ERROR_FILE_CORRUPT
+1393 The disk structure is corrupted and unreadable. ERROR_DISK_CORRUPT
+1394 There is no user session key for the specified logonsession.ERROR_NO_USER_SESSION_KEY
+1395 The service being accessed is licensed for aparticular number of connections. No moreconnections can be made to the service at this timebecause there are already as many connections asthe service can accept.ERROR_LICENSE_QUOTA_EXCEEDED
+1396 Logon Failure: The target account name is incorrect. ERROR_WRONG_TARGET_NAME
+1397 Mutual Authentication failed. The server's passwordis out of date at the domain controller.ERROR_MUTUAL_AUTH_FAILED
+1398 There is a time difference between the client andserver.ERROR_TIME_SKEW
+
+1400 Invalid window handle. ERROR_INVALID_WINDOW_HANDLE
+1401 Invalid menu handle. ERROR_INVALID_MENU_HANDLE
+1402 Invalid cursor handle. ERROR_INVALID_CURSOR_HANDLE
+1403 Invalid accelerator table handle. ERROR_INVALID_ACCEL_HANDLE
+1404 Invalid hook handle. ERROR_INVALID_HOOK_HANDLE
+1405 Invalid handle to a multiple-window positionstructure.ERROR_INVALID_DWP_HANDLE
+1406 Cannot create a top-level child window. ERROR_TLW_WITH_WSCHILD
+1407 Cannot find window class. ERROR_CANNOT_FIND_WND_CLASS
+1408 Invalid window; it belongs to other thread. ERROR_WINDOW_OF_OTHER_THREAD
+1409 Hot key is already registered. ERROR_HOTKEY_ALREADY_REGISTERED
+1410 Class already exists. ERROR_CLASS_ALREADY_EXISTS
+1411 Class does not exist. ERROR_CLASS_DOES_NOT_EXIST
+1412 Class still has open windows. ERROR_CLASS_HAS_WINDOWS
+1413 Invalid index. ERROR_INVALID_INDEX
+1414 Invalid icon handle. ERROR_INVALID_ICON_HANDLE
+1415 Using private DIALOG window words. ERROR_PRIVATE_DIALOG_INDEX
+1416 The list box identifier was not found. ERROR_LISTBOX_ID_NOT_FOUND
+1417 No wildcards were found. ERROR_NO_WILDCARD_CHARACTERS
+1418 Thread does not have a clipboard open. ERROR_CLIPBOARD_NOT_OPEN
+1419 Hot key is not registered. ERROR_HOTKEY_NOT_REGISTERED
+1420 The window is not a valid dialog window. ERROR_WINDOW_NOT_DIALOG
+1421 Control ID not found. ERROR_CONTROL_ID_NOT_FOUND
+1422 Invalid message for a combo box because it doesnot have an edit control.ERROR_INVALID_COMBOBOX_MESSAGE
+1423 The window is not a combo box. ERROR_WINDOW_NOT_COMBOBOX
+1424 Height must be less than 256. ERROR_INVALID_EDIT_HEIGHT
+1425 Invalid device context (DC) handle. ERROR_DC_NOT_FOUND
+1426 Invalid hook procedure type. ERROR_INVALID_HOOK_FILTER
+1427 Invalid hook procedure. ERROR_INVALID_FILTER_PROC
+1428 Cannot set nonlocal hook without a module handle. ERROR_HOOK_NEEDS_HMOD
+1429 This hook procedure can only be set globally. ERROR_GLOBAL_ONLY_HOOK
+1430 The journal hook procedure is already installed. ERROR_JOURNAL_HOOK_SET
+1431 The hook procedure is not installed. ERROR_HOOK_NOT_INSTALLED
+1432 Invalid message for single-selection list box. ERROR_INVALID_LB_MESSAGE
+1433 LB_SETCOUNT sent to non-lazy list box. ERROR_SETCOUNT_ON_BAD_LB
+1434 This list box does not support tab stops. ERROR_LB_WITHOUT_TABSTOPS
+1435 Cannot destroy object created by another thread. ERROR_DESTROY_OBJECT_OF_OTHER_THREAD
+1436 Child windows cannot have menus. ERROR_CHILD_WINDOW_MENU
+1437 The window does not have a system menu. ERROR_NO_SYSTEM_MENU
+1438 Invalid message box style. ERROR_INVALID_MSGBOX_STYLE
+1439 Invalid system-wide (SPI_*) parameter. ERROR_INVALID_SPI_VALUE
+1440 Screen already locked. ERROR_SCREEN_ALREADY_LOCKED
+1441 All handles to windows in a multiple-window positionstructure must have the same parent.ERROR_HWNDS_HAVE_DIFF_PARENT
+1442 The window is not a child window. ERROR_NOT_CHILD_WINDOW
+1443 Invalid GW_* command. ERROR_INVALID_GW_COMMAND
+1444 Invalid thread identifier. ERROR_INVALID_THREAD_ID
+1445 Cannot process a message from a window that isnot a multiple document interface (MDI) window.ERROR_NON_MDICHILD_WINDOW
+1446 Context menu already active. ERROR_POPUP_ALREADY_ACTIVE
+1447 The window does not have scroll bars. ERROR_NO_SCROLLBARS
+1448 Scroll bar range cannot be greater than 0x7FFF. ERROR_INVALID_SCROLLBAR_RANGE
+1449 Cannot show or remove the window in the wayspecified.ERROR_INVALID_SHOWWIN_COMMAND
+1450 Insufficient system resources exist to complete therequested service.ERROR_NO_SYSTEM_RESOURCES
+1451 Insufficient system resources exist to complete therequested service.ERROR_NONPAGED_SYSTEM_RESOURCES
+1452 Insufficient system resources exist to complete therequested service.ERROR_PAGED_SYSTEM_RESOURCES
+1453 Insufficient quota to complete the requested service. ERROR_WORKING_SET_QUOTA
+1454 Insufficient quota to complete the requested service. ERROR_PAGEFILE_QUOTA
+1455 The paging file is too small for this operation tocomplete.ERROR_COMMITMENT_LIMIT
+1456 A menu item was not found. ERROR_MENU_ITEM_NOT_FOUND
+1457 Invalid keyboard layout handle. ERROR_INVALID_KEYBOARD_HANDLE
+1458 Hook type not allowed. ERROR_HOOK_TYPE_NOT_ALLOWED
+1459 This operation requires an interactive windowstation.ERROR_REQUIRES_INTERACTIVE_WINDOWSTATION
+1460 This operation returned because the timeout periodexpired.ERROR_TIMEOUT
+1461 Invalid monitor handle. ERROR_INVALID_MONITOR_HANDLE
+
+1500 The event log file is corrupted. ERROR_EVENTLOG_FILE_CORRUPT
+1501 No event log file could be opened, so the eventlogging service did not start.ERROR_EVENTLOG_CANT_START
+1502 The event log file is full. ERROR_LOG_FILE_FULL
+1503 The event log file has changed between readoperations.ERROR_EVENTLOG_FILE_CHANGED
+
+1601 Failure accessing installation service. ERROR_INSTALL_SERVICE_FAILURE
+1602 User canceled installation. ERROR_INSTALL_USEREXIT
+1603 Fatal error during installation. ERROR_INSTALL_FAILURE
+1604 Installation suspended, incomplete. ERROR_INSTALL_SUSPEND
+1605 Product is not installed. ERROR_UNKNOWN_PRODUCT
+1606 Feature ID not registered. ERROR_UNKNOWN_FEATURE
+1607 Component ID not registered. ERROR_UNKNOWN_COMPONENT
+1608 Unknown property. ERROR_UNKNOWN_PROPERTY
+1609 Handle is in an invalid state. ERROR_INVALID_HANDLE_STATE
+1610 Configuration data corrupt. ERROR_BAD_CONFIGURATION
+1611 Component qualifier not present. ERROR_INDEX_ABSENT
+1612 Install source unavailable. ERROR_INSTALL_SOURCE_ABSENT
+1613 Database version unsupported. ERROR_INSTALL_PACKAGE_VERSION
+1614 Product is uninstalled. ERROR_PRODUCT_UNINSTALLED
+1615 SQL query syntax invalid or unsupported. ERROR_BAD_QUERY_SYNTAX
+1616 Record field does not exist. ERROR_INVALID_FIELD
+1617 The device has been removed. ERROR_DEVICE_REMOVED
+1618 An installation is in progress. ERROR_INSTALL_ALREADY_RUNNING
+1619 Installation package could not be opened. ERROR_INSTALL_PACKAGE_OPEN_FAILED
+1620 Installation package invalid. ERROR_INSTALL_PACKAGE_INVALID
+1621 Could not initialize installer UserInterface. ERROR_INSTALL_UI_FAILURE
+1622 Error opening installation log file. ERROR_INSTALL_LOG_FAILURE
+1623 Product language not supported by system. ERROR_INSTALL_LANGUAGE_UNSUPPORTED
+1624 Error applying transform to install package. ERROR_INSTALL_TRANSFORM_FAILURE
+1625 Install package signature not accepted. ERROR_INSTALL_PACKAGE_REJECTED
+1626 Function could not be executed. ERROR_FUNCTION_NOT_CALLED
+1627 Function failed during execution. ERROR_FUNCTION_FAILED
+1628 Invalid or unknown table specified. ERROR_INVALID_TABLE
+1629 Data supplied is of wrong type. ERROR_DATATYPE_MISMATCH
+1630 Data of this type is not supported. ERROR_UNSUPPORTED_TYPE
+1631 Unable to create requested object. ERROR_CREATE_FAILED
+1632 Temp folder is full or inaccessible. ERROR_INSTALL_TEMP_UNWRITABLE
+1633 Product platform not supported. ERROR_INSTALL_PLATFORM_UNSUPPORTED
+1634 Component not used on this computer. ERROR_INSTALL_NOTUSED
+1635 Patch package could not be opened. ERROR_PATCH_PACKAGE_OPEN_FAILED
+1636 Patch package invalid. ERROR_PATCH_PACKAGE_INVALID
+1637 Patch package unsupported. ERROR_PATCH_PACKAGE_UNSUPPORTED.
+1638 Invalid command line argument. ERROR_INVALID_COMMAND_LINE
+
+1700 The string binding is invalid. RPC_S_INVALID_STRING_BINDING
+1701 The binding handle is not the correct type. RPC_S_WRONG_KIND_OF_BINDING
+1702 The binding handle is invalid. RPC_S_INVALID_BINDING
+1703 The RPC protocol sequence is not supported. RPC_S_PROTSEQ_NOT_SUPPORTED
+1704 The RPC protocol sequence is invalid. RPC_S_INVALID_RPC_PROTSEQ
+1705 The string universal unique identifier (UUID) isinvalid.RPC_S_INVALID_STRING_UUID
+1706 The endpoint format is invalid. RPC_S_INVALID_ENDPOINT_FORMAT
+1707 The network address is invalid. RPC_S_INVALID_NET_ADDR
+1708 No endpoint was found. RPC_S_NO_ENDPOINT_FOUND
+1709 The timeout value is invalid. RPC_S_INVALID_TIMEOUT
+1710 The object universal unique identifier (UUID) was notfound.RPC_S_OBJECT_NOT_FOUND
+1711 The object universal unique identifier (UUID) hasalready been registered.RPC_S_ALREADY_REGISTERED
+1712 The type universal unique identifier (UUID) hasalready been registered.RPC_S_TYPE_ALREADY_REGISTERED
+1713 The RPC server is already listening. RPC_S_ALREADY_LISTENING
+1714 No protocol sequences have been registered. RPC_S_NO_PROTSEQS_REGISTERED
+1715 The RPC server is not listening. RPC_S_NOT_LISTENING
+1716 The manager type is unknown. RPC_S_UNKNOWN_MGR_TYPE
+1717 The interface is unknown. RPC_S_UNKNOWN_IF
+1718 There are no bindings. RPC_S_NO_BINDINGS
+1719 There are no protocol sequences. RPC_S_NO_PROTSEQS
+1720 The endpoint cannot be created. RPC_S_CANT_CREATE_ENDPOINT
+1721 Not enough resources are available to complete thisoperation.RPC_S_OUT_OF_RESOURCES
+1722 The RPC server is unavailable. RPC_S_SERVER_UNAVAILABLE
+1723 The RPC server is too busy to complete thisoperation.RPC_S_SERVER_TOO_BUSY
+1724 The network options are invalid. RPC_S_INVALID_NETWORK_OPTIONS
+1725 There are no remote procedure calls active on thisthread.RPC_S_NO_CALL_ACTIVE
+1726 The remote procedure call failed. RPC_S_CALL_FAILED
+1727 The remote procedure call failed and did notexecute.RPC_S_CALL_FAILED_DNE
+1728 A remote procedure call (RPC) protocol erroroccurred.RPC_S_PROTOCOL_ERROR
+
+1730 The transfer syntax is not supported by the RPCserver.RPC_S_UNSUPPORTED_TRANS_SYN
+
+1732 The universal unique identifier (UUID) type is notsupported.RPC_S_UNSUPPORTED_TYPE
+1733 The tag is invalid. RPC_S_INVALID_TAG
+1734 The array bounds are invalid. RPC_S_INVALID_BOUND
+1735 The binding does not contain an entry name. RPC_S_NO_ENTRY_NAME
+1736 The name syntax is invalid. RPC_S_INVALID_NAME_SYNTAX
+1737 The name syntax is not supported. RPC_S_UNSUPPORTED_NAME_SYNTAX
+1739 No network address is available to use to construct auniversal unique identifier (UUID).RPC_S_UUID_NO_ADDRESS
+1740 The endpoint is a duplicate. RPC_S_DUPLICATE_ENDPOINT
+1741 The authentication type is unknown. RPC_S_UNKNOWN_AUTHN_TYPE
+1742 The maximum number of calls is too small. RPC_S_MAX_CALLS_TOO_SMALL
+1743 The string is too long. RPC_S_STRING_TOO_LONG
+1744 The RPC protocol sequence was not found. RPC_S_PROTSEQ_NOT_FOUND
+1745 The procedure number is out of range. RPC_S_PROCNUM_OUT_OF_RANGE
+1746 The binding does not contain any authenticationinformation.RPC_S_BINDING_HAS_NO_AUTH
+1747 The authentication service is unknown. RPC_S_UNKNOWN_AUTHN_SERVICE
+1748 The authentication level is unknown. RPC_S_UNKNOWN_AUTHN_LEVEL
+1749 The security context is invalid. RPC_S_INVALID_AUTH_IDENTITY
+1750 The authorization service is unknown. RPC_S_UNKNOWN_AUTHZ_SERVICE
+1751 The entry is invalid. EPT_S_INVALID_ENTRY
+1752 The server endpoint cannot perform the operation. EPT_S_CANT_PERFORM_OP
+1753 There are no more endpoints available from theendpoint mapper.EPT_S_NOT_REGISTERED
+1754 No interfaces have been exported. RPC_S_NOTHING_TO_EXPORT
+1755 The entry name is incomplete. RPC_S_INCOMPLETE_NAME
+1756 The version option is invalid. RPC_S_INVALID_VERS_OPTION
+1757 There are no more members. RPC_S_NO_MORE_MEMBERS
+1758 There is nothing to unexport. RPC_S_NOT_ALL_OBJS_UNEXPORTED
+1759 The interface was not found. RPC_S_INTERFACE_NOT_FOUND
+1760 The entry already exists. RPC_S_ENTRY_ALREADY_EXISTS
+1761 The entry is not found. RPC_S_ENTRY_NOT_FOUND
+1762 The name service is unavailable. RPC_S_NAME_SERVICE_UNAVAILABLE
+1763 The network address family is invalid. RPC_S_INVALID_NAF_ID
+1764 The requested operation is not supported. RPC_S_CANNOT_SUPPORT
+1765 No security context is available to allowimpersonation.RPC_S_NO_CONTEXT_AVAILABLE
+1766 An internal error occurred in a remote procedure call(RPC).RPC_S_INTERNAL_ERROR
+1767 The RPC server attempted an integer division byzero.RPC_S_ZERO_DIVIDE
+1768 An addressing error occurred in the RPC server. RPC_S_ADDRESS_ERROR
+1769 A floating-point operation at the RPC server causeda division by zero.RPC_S_FP_DIV_ZERO
+1770 A floating-point underflow occurred at the RPCserver.RPC_S_FP_UNDERFLOW
+1771 A floating-point overflow occurred at the RPC server. RPC_S_FP_OVERFLOW
+1772 The list of RPC servers available for the binding ofauto handles has been exhausted.RPC_X_NO_MORE_ENTRIES
+1773 Unable to open the character translation table file. RPC_X_SS_CHAR_TRANS_OPEN_FAIL
+1774 The file containing the character translation tablehas fewer than 512 bytes.RPC_X_SS_CHAR_TRANS_SHORT_FILE
+1775 A null context handle was passed from the client tothe host during a remote procedure call.RPC_X_SS_IN_NULL_CONTEXT
+
+1777 The context handle changed during a remoteprocedure call.RPC_X_SS_CONTEXT_DAMAGED
+1778 The binding handles passed to a remote procedurecall do not match.RPC_X_SS_HANDLES_MISMATCH
+1779 The stub is unable to get the remote procedure callhandle.RPC_X_SS_CANNOT_GET_CALL_HANDLE
+1780 A null reference pointer was passed to the stub. RPC_X_NULL_REF_POINTER
+1781 The enumeration value is out of range. RPC_X_ENUM_VALUE_OUT_OF_RANGE
+1782 The byte count is too small. RPC_X_BYTE_COUNT_TOO_SMALL
+1783 The stub received bad data. RPC_X_BAD_STUB_DATA
+1784 The supplied user buffer is not valid for therequested operation.ERROR_INVALID_USER_BUFFER
+1785 The disk media is not recognized. It cannot beformatted.ERROR_UNRECOGNIZED_MEDIA
+1786 The workstation does not have a trust secret. ERROR_NO_TRUST_LSA_SECRET
+1787 The SAM database on the Windows NT Server doesnot have a computer account for this workstationtrust relationship.ERROR_NO_TRUST_SAM_ACCOUNT
+1788 The trust relationship between the primary domainand the trusted domain failed.ERROR_TRUSTED_DOMAIN_FAILURE
+1789 The trust relationship between this workstation andthe primary domain failed.ERROR_TRUSTED_RELATIONSHIP_FAILURE
+1790 The network logon failed. ERROR_TRUST_FAILURE
+1791 A remote procedure call is already in progress forthis thread.RPC_S_CALL_IN_PROGRESS
+1792 An attempt was made to logon, but the networklogon service was not started.ERROR_NETLOGON_NOT_STARTED
+1793 The user's account has expired. ERROR_ACCOUNT_EXPIRED
+1794 The redirector is in use and cannot be unloaded. ERROR_REDIRECTOR_HAS_OPEN_HANDLES
+1795 The specified printer driver is already installed. ERROR_PRINTER_DRIVER_ALREADY_INSTALLED
+1796 The specified port is unknown. ERROR_UNKNOWN_PORT
+1797 The printer driver is unknown. ERROR_UNKNOWN_PRINTER_DRIVER
+1798 The print processor is unknown. ERROR_UNKNOWN_PRINTPROCESSOR
+1799 The specified separator file is invalid. ERROR_INVALID_SEPARATOR_FILE
+1800 The specified priority is invalid. ERROR_INVALID_PRIORITY
+1801 The printer name is invalid. ERROR_INVALID_PRINTER_NAME
+1802 The printer already exists. ERROR_PRINTER_ALREADY_EXISTS
+1803 The printer command is invalid. ERROR_INVALID_PRINTER_COMMAND
+1804 The specified datatype is invalid. ERROR_INVALID_DATATYPE
+1805 The environment specified is invalid. ERROR_INVALID_ENVIRONMENT
+1806 There are no more bindings. RPC_S_NO_MORE_BINDINGS
+1807 The account used is an interdomain trust account.Use your global user account or local user accountto access this server.ERROR_NOLOGON_INTERDOMAIN_TRUST_ACCOUNT
+1808 The account used is a computer account. Use yourglobal user account or local user account to accessthis server.ERROR_NOLOGON_WORKSTATION_TRUST_ACCOUNT
+1809 The account used is a server trust account. Use yourglobal user account or local user account to accessthis server.ERROR_NOLOGON_SERVER_TRUST_ACCOUNT
+1810 The name or security ID (SID) of the domainspecified is inconsistent with the trust information forthat domain.ERROR_DOMAIN_TRUST_INCONSISTENT
+1811 The server is in use and cannot be unloaded. ERROR_SERVER_HAS_OPEN_HANDLES
+1812 The specified image file did not contain a resourcesection.ERROR_RESOURCE_DATA_NOT_FOUND
+1813 The specified resource type cannot be found in theimage file.ERROR_RESOURCE_TYPE_NOT_FOUND
+1814 The specified resource name cannot be found in theimage file.ERROR_RESOURCE_NAME_NOT_FOUND
+1815 The specified resource language ID cannot be foundin the image file.ERROR_RESOURCE_LANG_NOT_FOUND
+1816 Not enough quota is available to process thiscommand.ERROR_NOT_ENOUGH_QUOTA
+1817 No interfaces have been registered. RPC_S_NO_INTERFACES
+1818 The remote procedure call was canceled. RPC_S_CALL_CANCELED
+1819 The binding handle does not contain all requiredinformation.RPC_S_BINDING_INCOMPLETE
+1820 A communications failure occurred during a remoteprocedure call.RPC_S_COMM_FAILURE
+1821 The requested authentication level is not supported. RPC_S_UNSUPPORTED_AUTHN_LEVEL
+1822 No principal name registered. RPC_S_NO_PRINC_NAME
+1823 The error specified is not a valid Windows RPC errorcode.RPC_S_NOT_RPC_ERROR
+1824 A UUID that is valid only on this computer has beenallocated.RPC_S_UUID_LOCAL_ONLY
+1825 A security package specific error occurred. RPC_S_SEC_PKG_ERROR
+1826 Thread is not canceled. RPC_S_NOT_CANCELED
+1827 Invalid operation on the encoding/decoding handle. RPC_X_INVALID_ES_ACTION
+1828 Incompatible version of the serializing package. RPC_X_WRONG_ES_VERSION
+1829 Incompatible version of the RPC stub. RPC_X_WRONG_STUB_VERSION
+1830 The RPC pipe object is invalid or corrupted. RPC_X_INVALID_PIPE_OBJECT
+1831 An invalid operation was attempted on an RPC pipeobject.RPC_X_WRONG_PIPE_ORDER
+1832 Unsupported RPC pipe version. RPC_X_WRONG_PIPE_VERSION
+
+1898 The group member was not found. RPC_S_GROUP_MEMBER_NOT_FOUND
+1899 The endpoint mapper database entry could not becreated.EPT_S_CANT_CREATE
+
+1900 The object universal unique identifier (UUID) is thenil UUID.RPC_S_INVALID_OBJECT
+1901 The specified time is invalid. ERROR_INVALID_TIME
+1902 The specified form name is invalid. ERROR_INVALID_FORM_NAME
+1903 The specified form size is invalid. ERROR_INVALID_FORM_SIZE
+1904 The specified printer handle is already being waitedonERROR_ALREADY_WAITING
+1905 The specified printer has been deleted. ERROR_PRINTER_DELETED
+1906 The state of the printer is invalid. ERROR_INVALID_PRINTER_STATE
+1907 The user must change his password before he logson the first time.ERROR_PASSWORD_MUST_CHANGE
+1908 Could not find the domain controller for this domain. ERROR_DOMAIN_CONTROLLER_NOT_FOUND
+1909 The referenced account is currently locked out andcannot be logged on to.ERROR_ACCOUNT_LOCKED_OUT
+1910 The object exporter specified was not found. OR_INVALID_OXID
+1911 The object specified was not found. OR_INVALID_OID
+1912 The object resolver set specified was not found. OR_INVALID_SET
+1913 Some data remains to be sent in the request buffer. RPC_S_SEND_INCOMPLETE
+1914 Invalid asynchronous remote procedure call handle. RPC_S_INVALID_ASYNC_HANDLE
+1915 Invalid asynchronous RPC call handle for thisoperation.RPC_S_INVALID_ASYNC_CALL
+1916 The RPC pipe object has already been closed. RPC_X_PIPE_CLOSED
+1917 The RPC call completed before all pipes wereprocessed.RPC_X_PIPE_DISCIPLINE_ERROR
+1918 No more data is available from the RPC pipe. RPC_X_PIPE_EMPTY
+1919 No site name is available for this machine. ERROR_NO_SITENAME
+1920 The file cannot be accessed by the system. ERROR_CANT_ACCESS_FILE
+1921 The name of the file cannot be resolved by thesystem.ERROR_CANT_RESOLVE_FILENAME
+1922 The entry is not of the expected type. RPC_S_ENTRY_TYPE_MISMATCH
+1923 Not all object UUIDs could be exported to thespecified entry.RPC_S_NOT_ALL_OBJS_EXPORTED
+1924 Interface could not be exported to the specifiedentry.RPC_S_INTERFACE_NOT_EXPORTED
+1925 The specified profile entry could not be added. RPC_S_PROFILE_NOT_ADDED
+1926 The specified profile element could not be added. RPC_S_PRF_ELT_NOT_ADDED
+1927 The specified profile element could not be removed. RPC_S_PRF_ELT_NOT_REMOVED
+1928 The group element could not be added. RPC_S_GRP_ELT_NOT_ADDED
+1929 The group element could not be removed.  RPC_S_GRP_ELT_NOT_REMOVED
+
+/**
+ * https://docs.automic.com/documentation/webhelp/english/AWA/11.2/AE/11.2/All Guides/Content/ucaaqc.htm 1/5
+ */

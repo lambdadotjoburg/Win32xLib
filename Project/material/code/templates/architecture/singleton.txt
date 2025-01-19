@@ -1,0 +1,28 @@
+// template singleton class
+
+class Singleton {
+
+public:
+
+    static Singleton& get() {
+        if (nullptr == instance) instance = new Singleton;
+        return *instance;
+    }
+
+    Singleton(const Singleton&) = delete;
+    Singleton& operator=(const Singleton&) = delete;
+
+    static void destruct() {
+        delete instance;
+        instance = nullptr;
+    }
+
+private:
+
+    Singleton() = default;
+    ~Singleton() = default;
+    static Singleton* instance;
+  
+};
+
+Singleton* Singleton::instance = nullptr;

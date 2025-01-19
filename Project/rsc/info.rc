@@ -1,0 +1,50 @@
+// always include for Win32 CONSTANTS
+// OFTEN forgotten include when writing .rc files ...
+#include <windows.h>
+
+// enable common controls by linking to the application's manifest ...
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "main.exe.manifest"
+
+// icon.ico can be replaced with ANY icon
+// of user's choice or set at project runtime ...
+// icon maximum size => 96x96 pixels
+APPICON ICON "./img/icon.ico"
+
+// Executable version information.
+VS_VERSION_INFO    VERSIONINFO
+FILEVERSION        1,2,3,4
+PRODUCTVERSION     1,2,3,4
+FILEFLAGSMASK      VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+  FILEFLAGS        VS_FF_DEBUG | VS_FF_PRERELEASE
+#else
+  FILEFLAGS        0
+#endif
+FILEOS             VOS_NT_WINDOWS32
+FILETYPE           VFT_APP
+FILESUBTYPE        VFT2_UNKNOWN
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0" // => English US
+    // BLOCK "080904b0" // => English UK
+    // BLOCK "080904b0" // => English SA
+    BEGIN
+      VALUE "CompanyName", "&lambda;ambda"
+      VALUE "FileDescription", "This is a simple Win32 Wrapper project"
+      VALUE "FileVersion", "1.2.3.4"
+      VALUE "InternalName", "main.exe"
+      VALUE "LegalCopyright", "\xA9 2024 &lambda;ambda"
+      VALUE "OriginalFilename", "main.exe"
+      VALUE "ProductName", "Project"
+      VALUE "ProductVersion", "1.2.3.4"
+      VALUE "Language", "English (United States)"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200 // English US
+    // VALUE "Translation", 0x809, 1200 // English UK
+    // VALUE "Translation", 0x1c09, 1200 // English SA
+  END
+END

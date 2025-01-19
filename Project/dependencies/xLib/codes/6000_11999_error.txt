@@ -1,0 +1,283 @@
+8391 Schema update failed: class insubclass of list does not exist or doesnot satisfy hierarchy rulesERROR_DS_SUB_CLS_TEST_FAIL
+8392 Schema update failed: Rdn-Att-Id haswrong syntaxERROR_DS_BAD_RDN_ATT_ID_SYNTAX
+8393 Schema deletion failed: class is usedas auxiliary classERROR_DS_EXISTS_IN_AUX_CLS
+8394 Schema deletion failed: class is usedas sub classERROR_DS_EXISTS_IN_SUB_CLS
+8395 Schema deletion failed: class is usedas poss superiorERROR_DS_EXISTS_IN_POSS_SUP
+8396 Schema update failed in recalculatingvalidation cache.ERROR_DS_RECALCSCHEMA_FAILED
+8397 The tree deletion is not finished. ERROR_DS_TREE_DELETE_NOT_FINISHED
+8398 The requested delete operation couldnot be performed.ERROR_DS_CANT_DELETE
+8399 Cannot read the governs classidentifier for the schema record.ERROR_DS_ATT_SCHEMA_REQ_ID
+8400 The attribute schema has bad syntax. ERROR_DS_BAD_ATT_SCHEMA_SYNTAX
+8401 The attribute could not be cached. ERROR_DS_CANT_CACHE_ATT
+8402 The class could not be cached. ERROR_DS_CANT_CACHE_CLASS
+8403 The attribute could not be removedfrom the cache.ERROR_DS_CANT_REMOVE_ATT_CACHE
+8404 The class could not be removed fromthe cache.ERROR_DS_CANT_REMOVE_CLASS_CACHE
+8405 The distinguished name attribute couldnot be read.ERROR_DS_CANT_RETRIEVE_DN
+8406 A required subref is missing. ERROR_DS_MISSING_SUPREF
+8407 The instance type attribute could notbe retrieved.ERROR_DS_CANT_RETRIEVE_INSTANCE
+8408 An internal error has occurred. ERROR_DS_CODE_INCONSISTENCY
+8409 A database error has occurred. ERROR_DS_DATABASE_ERROR
+8410 The attribute GOVERNSID is missing. ERROR_DS_GOVERNSID_MISSING
+8411 An expected attribute is missing. ERROR_DS_MISSING_EXPECTED_ATT
+8412 The specified naming context ismissing a cross reference.ERROR_DS_NCNAME_MISSING_CR_REF
+8413 A security checking error hasoccurred.ERROR_DS_SECURITY_CHECKING_ERROR
+8414 The schema is not loaded. ERROR_DS_SCHEMA_NOT_LOADED
+8415 Schema allocation failed. ERROR_DS_SCHEMA_ALLOC_FAILED
+8416 Failed to obtain the required syntax forthe attribute schema.ERROR_DS_ATT_SCHEMA_REQ_SYNTAX
+8417 The global catalog verification failed. The global catalog is not available ordoes not support the operation. Somepart of the directory is currently notavailable.ERROR_DS_GCVERIFY_ERROR
+8418 The replication operation failedbecause of a schema mismatchbetween the servers involved.ERROR_DS_DRA_SCHEMA_MISMATCH
+8419 The DSA object could not be found. ERROR_DS_CANT_FIND_DSA_OBJ
+8420 The naming context could not befound.ERROR_DS_CANT_FIND_EXPECTED_NC
+8421 The naming context could not befound in the cache.ERROR_DS_CANT_FIND_NC_IN_CACHE
+8422 The child object could not be retrieved. ERROR_DS_CANT_RETRIEVE_CHILD
+8423 The modification was not allowed forsecurity reasons.ERROR_DS_SECURITY_ILLEGAL_MODIFY
+8424 The operation cannot replace thehidden record.ERROR_DS_CANT_REPLACE_HIDDEN_REC
+8425 The hierarchy file is invalid. ERROR_DS_BAD_HIERARCHY_FILE
+8426 The attempt to build the hierarchytable failed.ERROR_DS_BUILD_HIERARCHY_TABLE_FAILED
+8427 The directory configuration parameter is missing from the registry.ERROR_DS_CONFIG_PARAM_MISSING
+8428 The attempt to count the address bookindices failed.ERROR_DS_COUNTING_AB_INDICES_FAILED
+8429 The allocation of the hierarchy tablefailed.ERROR_DS_HIERARCHY_TABLE_MALLOC_FAILED
+8430 The directory service encountered aninternal failure.ERROR_DS_INTERNAL_FAILURE
+8431 The directory service encountered anunknown failure.ERROR_DS_UNKNOWN_ERROR
+8432 A root object requires a class of 'top'. ERROR_DS_ROOT_REQUIRES_CLASS_TOP
+8433 This directory server is shutting down,and cannot take ownership of newfloating single-master operation roles.ERROR_DS_REFUSING_FSMO_ROLES
+8434 The directory service is missingmandatory configuration information,and is unable to determine theownership of floating single-masteroperation roles.ERROR_DS_MISSING_FSMO_SETTINGS
+8435 The directory service was unable totransfer ownership of one or morefloating single-master operation rolesto other servers.ERROR_DS_UNABLE_TO_SURRENDER_ROLES
+8436 The replication operation failed. ERROR_DS_DRA_GENERIC
+8437 An invalid parameter was specified forthis replication operation.ERROR_DS_DRA_INVALID_PARAMETER
+8438 The Windows NT directory service istoo busy to complete the replicationoperation at this time.ERROR_DS_DRA_BUSY
+8439 The distinguished name specified forthis replication operation is invalid.ERROR_DS_DRA_BAD_DN
+8440 The naming context specified for thisreplication operation is invalid.ERROR_DS_DRA_BAD_NC
+8441 The distinguished name specified forthis replication operation alreadyexists.ERROR_DS_DRA_DN_EXISTS
+8442 The replication system encounteredan internal error.ERROR_DS_DRA_INTERNAL_ERROR
+8443 The replication operation encountereda database inconsistency.ERROR_DS_DRA_INCONSISTENT_DIT
+8444 The server specified for this replicationoperation could not be contacted.ERROR_DS_DRA_CONNECTION_FAILED
+8445 The replication operation encounteredan object with an invalid instance type.ERROR_DS_DRA_BAD_INSTANCE_TYPE
+8446 The replication operation failed toallocate memory.ERROR_DS_DRA_OUT_OF_MEM
+8447 The replication operation encounteredan error with the mail system.ERROR_DS_DRA_MAIL_PROBLEM
+8448 The replication reference informationfor the target server already exists.ERROR_DS_DRA_REF_ALREADY_EXISTS
+8449 The replication reference informationfor the target server does not exist.ERROR_DS_DRA_REF_NOT_FOUND
+8450 The naming context cannot beremoved because it is replicated toanother server.ERROR_DS_DRA_OBJ_IS_REP_SOURCE
+8451 The replication operation encountereda database error.ERROR_DS_DRA_DB_ERROR
+8452 The naming context is in the processof being removed or is not replicatedfrom the specified server.ERROR_DS_DRA_NO_REPLICA
+8453 Replication access was denied. ERROR_DS_DRA_ACCESS_DENIED
+8454 The requested operation is notsupported by this version of theWindows NT directory service.ERROR_DS_DRA_NOT_SUPPORTED
+8455 The replication remote procedure callwas canceled.ERROR_DS_DRA_RPC_CANCELED
+8456 The source server is currentlyrejecting replication requests.ERROR_DS_DRA_SOURCE_DISABLED
+8457 The destination server is currentlyrejecting replication requests.ERROR_DS_DRA_SINK_DISABLED
+8458 The replication operation failed due toa collision of object names.ERROR_DS_DRA_NAME_COLLISION
+8459 The replication source has beenreinstalled.ERROR_DS_DRA_SOURCE_REINSTALLED
+8460 The replication operation failedbecause a required parent object ismissing.ERROR_DS_DRA_MISSING_PARENT
+8461 The replication operation waspreempted.ERROR_DS_DRA_PREEMPTED
+8462 The replication synchronizationattempt was abandoned because of alack of updates.ERROR_DS_DRA_ABANDON_SYNC
+8463 The replication operation wasterminated because the system isshutting down.ERROR_DS_DRA_SHUTDOWN
+8464 The replication synchronizationattempt failed as the destination partialattribute set is not a subset of sourcepartial attribute set.ERROR_DS_DRA_INCOMPATIBLE_PARTIAL_SET
+8465 The replication synchronizationattempt failed because a masterreplica attempted to sync from apartial replica.ERROR_DS_DRA_SOURCE_IS_PARTIAL_REPLICA
+8466 The server specified for this replicationoperation was contacted, but thatserver was unable to contact anadditional server needed to completethe operation.ERROR_DS_DRA_EXTN_CONNECTION_FAILED
+8467 A schema mismatch is detectedbetween the source and the build usedduring a replica install. The replicacannot be installed.ERROR_DS_INSTALL_SCHEMA_MISMATCH
+8468 Schema update failed: An attributewith the same link identifier alreadyexists.ERROR_DS_DUP_LINK_ID
+8469 Name translation: Generic processing error.ERROR_DS_NAME_ERROR_RESOLVING
+8470 Name translation: Could not find thename or insufficient right to see name.ERROR_DS_NAME_ERROR_NOT_FOUND
+8471 Name translation: Input name mappedto more than one output name.ERROR_DS_NAME_ERROR_NOT_UNIQUE
+8472 Name translation: Input name found,but not the associated output format.ERROR_DS_NAME_ERROR_NO_MAPPING
+8473 Name translation: Unable to resolvecompletely, only the domain wasfound.ERROR_DS_NAME_ERROR_DOMAIN_ONLY
+8474 Name translation: Unable to performpurely syntactical mapping at the clientwithout going out to the wire.ERROR_DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING
+8475 Modification of a constructed att is notallowed.ERROR_DS_CONSTRUCTED_ATT_MOD
+8476 The OM-Object-Class specified isincorrect for an attribute with thespecified syntax.ERROR_DS_WRONG_OM_OBJ_CLASS
+8477 The replication request has beenposted; waiting for reply.ERROR_DS_DRA_REPL_PENDING
+8478 The requested operation requires adirectory service, and none wasavailable.ERROR_DS_DS_REQUIRED
+8479 The LDAP display name of the classor attribute contains non-ASCIIcharacters.ERROR_DS_INVALID_LDAP_DISPLAY_NAME
+8480 The requested search operation isonly supported for base searches.ERROR_DS_NON_BASE_SEARCH
+8481 The search failed to retrieve attributesfrom the database.ERROR_DS_CANT_RETRIEVE_ATTS
+8482 The schema update operation tried toadd a backward link attribute that hasno corresponding forward link.ERROR_DS_BACKLINK_WITHOUT_LINK
+8483 Source and destination of a crossdomain move do not agree on theobject's epoch number. Either sourceor destination does not have the latestversion of the object.ERROR_DS_EPOCH_MISMATCH
+8484 Source and destination of a crossdomain move do not agree on theobject's current name. Either source ordestination does not have the latest version of the object.ERROR_DS_SRC_NAME_MISMATCH
+8485 Source and destination of a crossdomain move operation are identical.Caller should use local moveoperation instead of cross domainmove operation.ERROR_DS_SRC_AND_DST_NC_IDENTICAL
+8486 Source and destination for a crossdomain move are not in agreement onthe naming contexts in the forest.Either source or destination does nothave the latest version of thePartitions container.ERROR_DS_DST_NC_MISMATCH
+8487 Destination of a cross domain move isnot authoritative for the destinationnaming context.ERROR_DS_NOT_AUTHORITIVE_FOR_DST_NC
+8488 Source and destination of a crossdomain move do not agree on theidentity of the source object. Eithersource or destination does not havethe latest version of the source object.ERROR_DS_SRC_GUID_MISMATCH
+8489 Object being moved across domains isalready known to be deleted by thedestination server. The source serverdoes not have the latest version of thesource object.ERROR_DS_CANT_MOVE_DELETED_OBJECT
+8490 Another operation which requiresexclusive access to the PDC PSMO isalready in progress.ERROR_DS_PDC_OPERATION_IN_PROGRESS
+8491 A cross domain move operation failedsuch that the two versions of themoved object exist - one each in thesource and destination domains. The destination object must be removed torestore the system to a consistentstate.ERROR_DS_CROSS_DOMAIN_CLEANUP_REQD
+8492 This object cannot be moved acrossdomain boundaries either becausecross domain moves for this class aredisallowed, or the object has somespecial characteristics, eg: trustaccount or restricted RID, whichprevent its move.ERROR_DS_ILLEGAL_XDOM_MOVE_OPERATION
+8493 Can't move objects with membershipsacross domain boundaries as oncemoved, this would violate themembership conditions of the accountgroup. Remove the object from anyaccount group memberships and retry.ERROR_DS_CANT_WITH_ACCT_GROUP_MEMBERSHPS
+8494 A naming context head must be theimmediate child of another namingcontext head, not of an interior node.ERROR_DS_NC_MUST_HAVE_NC_PARENT
+8495 The directory cannot validate theproposed naming context namebecause it does not hold a replica ofthe naming context above theproposed naming context.ERROR_DS_CR_IMPOSSIBLE_TO_VALIDATE
+8496 Destination of a cross domain movemust be in native mode.ERROR_DS_DST_DOMAIN_NOT_NATIVE
+8497 The operation cannot be performedbecause the server does not have aninfrastructure container in the domainof interest.ERROR_DS_MISSING_INFRASTRUCTURE_CONTAINER
+8498 Cross domain move of account groupsis not allowed.ERROR_DS_CANT_MOVE_ACCOUNT_GROUP
+8499 Cross domain move of resourcegroups is not allowed.ERROR_DS_CANT_MOVE_RESOURCE_GROUP
+8500 The search flags for the attribute are invalid. The ANR bit is valid only onattributes of Unicode or Teletexstrings.ERROR_DS_INVALID_SEARCH_FLAG
+8501 Tree deletions starting at an objectwhich has an NC head as adescendant are not allowed.ERROR_DS_NO_TREE_DELETE_ABOVE_NC
+8502 The directory service failed to lock atree in preparation for a tree deletionbecause the tree was in use.ERROR_DS_COULDNT_LOCK_TREE_FOR_DELETE
+8503 The directory service failed to identifythe list of objects to delete whileattempting a tree deletion.ERROR_DS_COULDNT_IDENTIFY_OBJECTS_FOR_TREE_DELETE
+8504 Security Accounts Managerinitialization failed because of thefollowing error: %1.Error status: 0x%2. Click OK tab toshut down the system, then selectSafe Mode during reboot. For moreinformation, check the event log.ERROR_DS_SAM_INIT_FAILURE
+8505 Only an administrator can modify themembership list of an administrativegroup.ERROR_DS_SENSITIVE_GROUP_VIOLATION
+8506 Cannot change the primary group IDof a domain controller account.ERROR_DS_CANT_MOD_PRIMARYGROUPID
+
+9001 DNS server unable to interpret format. DNS_ERROR_RCODE_FORMAT_ERROR
+9002 DNS server failure. DNS_ERROR_RCODE_SERVER_FAILURE
+9003 DNS name does not exist. DNS_ERROR_RCODE_NAME_ERROR
+9004 DNS request not supported by nameserver.DNS_ERROR_RCODE_NOT_IMPLEMENTED
+9005 DNS operation refused. DNS_ERROR_RCODE_REFUSED
+9006 DNS name that ought not exist, doesexist.DNS_ERROR_RCODE_YXDOMAIN
+9007 DNS RR set that ought not exist, doesexist.DNS_ERROR_RCODE_YXRRSET
+9008 DNS RR set that ought to exist, doesnot exist.DNS_ERROR_RCODE_NXRRSET
+9009 DNS server not authoritative for zone. DNS_ERROR_RCODE_NOTAUTH
+9010 DNS name in update or prereq is notin zone.DNS_ERROR_RCODE_NOTZONE
+
+9016 DNS signature failed to verify. DNS_ERROR_RCODE_BADSIG
+9017 DNS bad key. DNS_ERROR_RCODE_BADKEY9018 DNS signature validity expired. DNS_ERROR_RCODE_BADTIME
+
+9501 No records found for given DNS query. DNS_INFO_NO_RECORDS
+9502 Bad DNS packet. DNS_ERROR_BAD_PACKET
+9503 No DNS packet. DNS_ERROR_NO_PACKET
+9504 DNS error, check rcode. DNS_ERROR_RCODE
+9505 Unsecured DNS packet. DNS_ERROR_UNSECURE_PACKET
+
+9551 Invalid DNS type. DNS_ERROR_INVALID_TYPE
+9552 Invalid IP address. DNS_ERROR_INVALID_IP_ADDRESS
+9553 Invalid property. DNS_ERROR_INVALID_PROPERTY
+9554 Try DNS operation again later. DNS_ERROR_TRY_AGAIN_LATER
+9555 Record for given name and type is notunique.DNS_ERROR_NOT_UNIQUE
+9556 DNS name does not comply with RFC specifications.DNS_ERROR_NON_RFC_NAME
+9557 DNS name is a fully-qualified DNSname.DNS_STATUS_FQDN
+9558 DNS name is dotted (multi-label). DNS_STATUS_DOTTED_NAME
+9559 DNS name is a single-part name. DNS_STATUS_SINGLE_PART_NAME
+
+9601 DNS zone does not exist. DNS_ERROR_ZONE_DOES_NOT_EXIST
+9602 DNS zone information not available. DNS_ERROR_NO_ZONE_INFO
+9603 Invalid operation for DNS zone. DNS_ERROR_INVALID_ZONE_OPERATION
+9604 Invalid DNS zone configuration. DNS_ERROR_ZONE_CONFIGURATION_ERROR
+9605 DNS zone has no start of authority(SOA) record.DNS_ERROR_ZONE_HAS_NO_SOA_RECORD
+9606 DNS zone has no name server (NS)record.DNS_ERROR_ZONE_HAS_NO_NS_RECORDS
+9607 DNS zone is locked. DNS_ERROR_ZONE_LOCKED9608 DNS zone creation failed. DNS_ERROR_ZONE_CREATION_FAILED
+9609 DNS zone already exists. DNS_ERROR_ZONE_ALREADY_EXISTS
+9610 DNS automatic zone already exists. DNS_ERROR_AUTOZONE_ALREADY_EXISTS
+9611 Invalid DNS zone type. DNS_ERROR_INVALID_ZONE_TYPE
+9612 Secondary DNS zone requires masterIP address.DNS_ERROR_SECONDARY_REQUIRES_MASTER_IP
+9613 DNS zone not secondary. DNS_ERROR_ZONE_NOT_SECONDARY
+9614 Need secondary IP address. DNS_ERROR_NEED_SECONDARY_ADDRESSES
+9615 WINS initialization failed. DNS_ERROR_WINS_INIT_FAILED
+9616 Need WINS servers. DNS_ERROR_NEED_WINS_SERVERS
+9617 NBTSTAT initialization call failed. DNS_ERROR_NBSTAT_INIT_FAILED
+9618 Invalid delete of start of authority(SOA)DNS_ERROR_SOA_DELETE_INVALID
+
+9651 Primary DNS zone requires datafile. DNS_ERROR_PRIMARY_REQUIRES_DATAFILE
+9652 Invalid datafile name for DNS zone. DNS_ERROR_INVALID_DATAFILE_NAME
+9653 Failed to open datafile for DNS zone. DNS_ERROR_DATAFILE_OPEN_FAILURE
+9654 Failed to write datafile for DNS zone. DNS_ERROR_FILE_WRITEBACK_FAILED
+9655 Failure while reading datafile for DNSzone.DNS_ERROR_DATAFILE_PARSING
+
+9701 DNS record does not exist. DNS_ERROR_RECORD_DOES_NOT_EXIST
+9702 DNS record format error. DNS_ERROR_RECORD_FORMAT
+9703 Node creation failure in DNS. DNS_ERROR_NODE_CREATION_FAILED
+9704 Unknown DNS record type. DNS_ERROR_UNKNOWN_RECORD_TYPE
+9705 DNS record timed out. DNS_ERROR_RECORD_TIMED_OUT
+9706 Name not in DNS zone. DNS_ERROR_NAME_NOT_IN_ZONE
+9707 CNAME loop detected. DNS_ERROR_CNAME_LOOP
+9708 Node is a CNAME DNS record. DNS_ERROR_NODE_IS_CNAME
+9709 A CNAME record already exists forgiven name.DNS_ERROR_CNAME_COLLISION
+9710 Record only at DNS zone root. DNS_ERROR_RECORD_ONLY_AT_ZONE_ROOT
+9711 DNS record already exists. DNS_ERROR_RECORD_ALREADY_EXISTS
+9712 Secondary DNS zone data error. DNS_ERROR_SECONDARY_DATA
+9713 Could not create DNS cache data. DNS_ERROR_NO_CREATE_CACHE_DATA
+9714 DNS name does not exist. DNS_ERROR_NAME_DOES_NOT_EXIST
+9715 Could not create pointer (PTR) record. DNS_WARNING_PTR_CREATE_FAILED
+9716 DNS domain was undeleted. DNS_WARNING_DOMAIN_UNDELETED
+9717 The Windows NT directory service isunavailable.DNS_ERROR_DS_UNAVAILABLE
+9718 DNS zone already exists in WindowsNT directory service.DNS_ERROR_DS_ZONE_ALREADY_EXISTS
+9719 DNS server not creating or reading theboot file for the directory service integrated DNS zone.DNS_ERROR_NO_BOOTFILE_IF_DS_ZONE
+
+9751 DNS AXFR (zone transfer) complete. DNS_INFO_AXFR_COMPLETE
+9752 DNS zone transfer failed. DNS_ERROR_AXFR9753 Added local WINS server. DNS_INFO_ADDED_LOCAL_WINS
+
+9801 Secure update call must continueupdate request.DNS_STATUS_CONTINUE_NEEDED
+
+9851 TCP/IP network protocol not installed. DNS_ERROR_NO_TCPIP
+9852 No DNS servers configured for localsystem.DNS_ERROR_NO_DNS_SERVERS
+
+10004 A blocking operation was interruptedby a call to WSACancelBlockingCall.WSAEINTR
+
+10009 The file handle supplied is not valid. WSAEBADF
+
+10013 An attempt was made to access asocket in a way forbidden by itsaccess permissions.WSAEACCES
+10014 The system detected an invalid pointeraddress in attempting to use a pointerargument in a call.WSAEFAULT
+
+10022 An invalid argument was supplied. WSAEINVAL
+
+10024 Too many open sockets. WSAEMFILE
+
+10035 A non-blocking socket operation couldnot be completed immediately.WSAEWOULDBLOCK
+10036 A blocking operation is currentlyexecuting.WSAEINPROGRESS
+10037 An operation was attempted on a non-blocking socket that already had anoperation in progress.WSAEALREADY
+10038 An operation was attempted onsomething that is not a socket.WSAENOTSOCK
+10039 A required address was omitted from an operation on a socket.WSAEDESTADDRREQ
+10040 A message sent on a datagram socketwas larger than the internal messagebuffer or some other network limit, orthe buffer used to receive a datagraminto was smaller than the datagramitself.WSAEMSGSIZE
+10041 A protocol was specified in the socketfunction call that does not support thesemantics of the socket typerequested.WSAEPROTOTYPE
+10042 An unknown, invalid, or unsupportedoption or level was specified in agetsockopt or setsockopt call.WSAENOPROTOOPT
+10043 The requested protocol has not beenconfigured into the system, or noimplementation for it exists.WSAEPROTONOSUPPORT
+10044 The support for the specified sockettype does not exist in this addressfamily.WSAESOCKTNOSUPPORT
+10045 The attempted operation is notsupported for the type of objectreferenced.WSAEOPNOTSUPP
+10046 The protocol family has not beenconfigured into the system or noimplementation for it exists.WSAEPFNOSUPPORT
+10047 An address incompatible with therequested protocol was used.WSAEAFNOSUPPORT
+10048 Only one usage of each socketaddress (protocol/networkaddress/port) is normally allowed.WSAEADDRINUSE
+10049 The requested address is not valid inits context.WSAEADDRNOTAVAIL
+10050 A socket operation encountered adead network.WSAENETDOWN
+10051 A socket operation was attempted toan unreachable network.WSAENETUNREACH
+10052 The connection has been broken dueto keep-alive activity detecting a failurewhile the operation was in progress.WSAENETRESET
+10053 An established connection wasaborted by the software in your hostmachine.WSAECONNABORTED
+10054 An existing connection was forciblyclosed by the remote host.WSAECONNRESET
+10055 An operation on a socket could not beperformed because the system lackedsufficient buffer space or because aqueue was full.WSAENOBUFS
+10056 A connect request was made on analready connected socket.WSAEISCONN
+10057 A request to send or receive data wasdisallowed because the socket is notconnected and (when sending on adatagram socket using a sendto call)no address was supplied.WSAENOTCONN
+10058 A request to send or receive data wasdisallowed because the socket hadalready been shut down in thatdirection with a previous shutdowncall.WSAESHUTDOWN
+10059 Too many references to some kernelobject.WSAETOOMANYREFS
+10060 A connection attempt failed becausethe connected party did not properlyrespond after a period of time, orestablished connection failed becauseconnected host has failed to respond.WSAETIMEDOUT
+10061 No connection could be madebecause the target machine activelyrefused it.WSAECONNREFUSED
+10062 Cannot translate name. WSAELOOP
+10063 Name component or name was toolong.WSAENAMETOOLONG
+10064 A socket operation failed because thedestination host was down.WSAEHOSTDOWN
+10065 A socket operation was attempted toan unreachable host.WSAEHOSTUNREACH
+10066 Cannot remove a directory that is notempty.WSAENOTEMPTY
+10067 A Windows Sockets implementationcan have a limit on the number ofapplications that can use itsimultaneously.WSAEPROCLIM
+10068 Ran out of quota. WSAEUSERS
+10069 Ran out of disk quota. WSAEDQUOT
+10070 File handle reference is no longeravailable.WSAESTALE
+10071 Item is not available locally. WSAEREMOTE
+10091 WSAStartup cannot function at thistime because the underlying system ituses to provide network services iscurrently unavailable.WSASYSNOTREADY
+10092 The Windows Sockets versionrequested is not supported.WSAVERNOTSUPPORTED
+10093 Either the application has not called WSAStartup, or WSAStartup failed.WSANOTINITIALISED
+
+10101 Returned by WSARecv orWSARecvFrom to indicate the remoteparty has initiated a graceful shutdownsequence.WSAEDISCON
+10102 No more results can be returned byWSALookupServiceNext.WSAENOMORE
+10103 A call to WSALookupServiceEnd wasmade while this call was stillprocessing. The call has beencanceled.WSAECANCELED
+10104 The procedure call table is invalid. WSAEINVALIDPROCTABLE
+10105 The requested service provider isinvalid.WSAEINVALIDPROVIDER
+10106 The requested service provider couldnot be loaded or initialized.WSAEPROVIDERFAILEDINIT
+10107 A system call that should never failhas failed.WSASYSCALLFAILURE
+10108 No such service is known. The servicecannot be found in the specified namespace.WSASERVICE_NOT_FOUND
+10109 The specified class was not found. WSATYPE_NOT_FOUND
+10110 No more results can be returned byWSALookupServiceNext.WSA_E_NO_MORE
+10111 A call to WSALookupServiceEnd wasmade while this call was stillprocessing. The call has beencanceled.WSA_E_CANCELED
+10112 A database query failed because itwas actively refused.WSAEREFUSED
+
+11001 No such host is known. WSAHOST_NOT_FOUND
+11002 This is usually a temporary errorduring hostname resolution andmeans that the local server did notreceive a response from anauthoritative server.WSATRY_AGAIN
+11003 A non-recoverable error occurredduring a database lookup.WSANO_RECOVERY
+11004 The requested name is valid and wasfound in the database, but it does nothave the correct associated data being resolved for.WSANO_DATA
+11005 At least one reserve has arrived. WSA_QOS_RECEIVERS
+11006 At least one path has arrived. WSA_QOS_SENDERS
+11007 There are no senders. WSA_QOS_NO_SENDERS
+11008 There are no receivers. WSA_QOS_NO_RECEIVERS
+11009 Reserve has been confirmed. WSA_QOS_REQUEST_CONFIRMED
+11010 Error due to lack of resources. WSA_QOS_ADMISSION_FAILURE
+11011 Rejected for administrative reasons -bad credentials.WSA_QOS_POLICY_FAILURE
+11012 Unknown or conflicting style. WSA_QOS_BAD_STYLE
+11013 Problem with some part of thefilterspec or provider-specific buffer ingeneral.WSA_QOS_BAD_OBJECT
+11014 Problem with some part of theflowspec.WSA_QOS_TRAFFIC_CTRL_ERROR
+11015 General QOS error. WSA_QOS_GENERIC_ERROR
+
+/**
+ * https://docs.automic.com/documentation/webhelp/english/AWA/11.2/AE/11.2/All Guides/Content/ucaaqc.htm 1/5
+ */

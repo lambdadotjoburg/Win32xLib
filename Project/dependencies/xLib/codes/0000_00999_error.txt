@@ -1,0 +1,234 @@
+0 The operation completed successfully. ERROR_SUCCESS
+1 Incorrect function. ERROR_INVALID_FUNCTION
+2 The system cannot find the file specified. ERROR_FILE_NOT_FOUND
+3 The system cannot find the path specified. ERROR_PATH_NOT_FOUND
+4 The system cannot open the file. ERROR_TOO_MANY_OPEN_FILES
+5 Access is denied. ERROR_ACCESS_DENIED
+6 The handle is invalid. ERROR_INVALID_HANDLE
+7 The storage control blocks were destroyed. ERROR_ARENA_TRASHED
+8 Not enough storage is available to process this command. ERROR_NOT_ENOUGH_MEMORY
+9 The storage control block address is invalid. ERROR_INVALID_BLOCK
+10 The environment is incorrect. ERROR_BAD_ENVIRONMENT
+11 An attempt was made to load a program with an incorrectformat.ERROR_BAD_FORMAT
+12 The access code is invalid. ERROR_INVALID_ACCESS
+13 The data is invalid. ERROR_INVALID_DATA
+14 Not enough storage is available to complete this operation. ERROR_OUTOFMEMORY
+15 The system cannot find the drive specified. ERROR_INVALID_DRIVE
+16 The directory cannot be removed. ERROR_CURRENT_DIRECTORY
+17 The system cannot move the file to a different disk drive. ERROR_NOT_SAME_DEVICE
+18 There are no more files. ERROR_NO_MORE_FILES
+19 The media is write protected. ERROR_WRITE_PROTECT
+20 The system cannot find the device specified. ERROR_BAD_UNIT
+21 The device is not ready. ERROR_NOT_READY
+22 The device does not recognize the command. ERROR_BAD_COMMAND
+23 Data error (cyclic redundancy check). ERROR_CRC
+24 The program issued a command but the command length isincorrect.ERROR_BAD_LENGTH
+25 The drive cannot locate a specific area or track on the disk. ERROR_SEEK
+26 The specified disk or diskette cannot be accessed. ERROR_NOT_DOS_DISK
+27 The drive cannot find the sector requested. ERROR_SECTOR_NOT_FOUND
+28 The printer is out of paper. ERROR_OUT_OF_PAPER
+29 The system cannot write to the specified device. ERROR_WRITE_FAULT
+30 The system cannot read from the specified device. ERROR_READ_FAULT
+31 A device attached to the system is not functioning. ERROR_GEN_FAILURE
+32 The process cannot access the file because it is being used byanother process.ERROR_SHARING_VIOLATION
+33 The process cannot access the file because another processhas locked a portion of the file.ERROR_LOCK_VIOLATION
+34 The wrong diskette is in the drive. Insert %2 (Volume SerialNumber: %3) into drive %1.ERROR_WRONG_DISK
+
+36 Too many files opened for sharing. ERROR_SHARING_BUFFER_EXCEEDED
+
+38 Reached the end of the file. ERROR_HANDLE_EOF
+39 The disk is full. ERROR_HANDLE_DISK_FULL
+
+50 The network request is not supported. ERROR_NOT_SUPPORTED
+51 The remote computer is not available. ERROR_REM_NOT_LIST
+52 A duplicate name exists on the network. ERROR_DUP_NAME
+53 The network path was not found. ERROR_BAD_NETPATH
+54 The network is busy. ERROR_NETWORK_BUSY
+55 The specified network resource or device is no longer available. ERROR_DEV_NOT_EXIST
+56 The network BIOS command limit has been reached. ERROR_TOO_MANY_CMDS
+57 A network adapter hardware error occurred. ERROR_ADAP_HDW_ERR
+58 The specified server cannot perform the requested operation. ERROR_BAD_NET_RESP
+59 An unexpected network error occurred. ERROR_UNEXP_NET_ERR
+60 The remote adapter is not compatible. ERROR_BAD_REM_ADAP
+61 The printer queue is full. ERROR_PRINTQ_FULL
+62 Space to store the file waiting to be printed is not available onthe server.ERROR_NO_SPOOL_SPACE
+63 Your file waiting to be printed was deleted. ERROR_PRINT_CANCELED
+64 The specified network name is no longer available. ERROR_NETNAME_DELETED
+65 Network access is denied. ERROR_NETWORK_ACCESS_DENIED
+66 The network resource type is not correct. ERROR_BAD_DEV_TYPE
+67 The network name cannot be found. ERROR_BAD_NET_NAME
+68 The name limit for the local computer network adapter card wasexceeded.ERROR_TOO_MANY_NAMES
+69 The network BIOS session limit was exceeded. ERROR_TOO_MANY_SESS
+70 The remote server has been paused or is in the process ofbeing started.ERROR_SHARING_PAUSED
+71 No more connections can be made to this remote computer atthis time because there are already as many connections as thecomputer can accept.ERROR_REQ_NOT_ACCEP
+72 The specified printer or disk device has been paused. ERROR_REDIR_PAUSED
+
+80 The file exists. ERROR_FILE_EXISTS
+
+82 The directory or file cannot be created. ERROR_CANNOT_MAKE
+83 Fail on INT 24. ERROR_FAIL_I24
+84 Storage to process this request is not available. ERROR_OUT_OF_STRUCTURES
+85 The local device name is already in use. ERROR_ALREADY_ASSIGNED
+86 The specified network password is not correct. ERROR_INVALID_PASSWORD
+87 The parameter is incorrect. ERROR_INVALID_PARAMETER
+88 A write fault occurred on the network. ERROR_NET_WRITE_FAULT
+89 The system cannot start another process at this time. ERROR_NO_PROC_SLOTS
+
+100 Cannot create another system semaphore. ERROR_TOO_MANY_SEMAPHORES
+101 The exclusive semaphore is owned by another process. ERROR_EXCL_SEM_ALREADY_OWNED
+102 The semaphore is set and cannot be closed. ERROR_SEM_IS_SET
+103 The semaphore cannot be set again. ERROR_TOO_MANY_SEM_REQUESTS
+104 Cannot request exclusive semaphores at interrupt time. ERROR_INVALID_AT_INTERRUPT_TIME
+105 The previous ownership of this semaphore has ended. ERROR_SEM_OWNER_DIED
+106 Insert the diskette for drive %1. ERROR_SEM_USER_LIMIT
+107 The program stopped because an alternate diskette was notinserted.ERROR_DISK_CHANGE
+108 The disk is in use or locked by another process. ERROR_DRIVE_LOCKED
+109 The pipe has been ended. ERROR_BROKEN_PIPE
+110 The system cannot open the device or file specified. ERROR_OPEN_FAILED
+111 The file name is too long. ERROR_BUFFER_OVERFLOW
+112 There is not enough space on the disk. ERROR_DISK_FULL
+113 No more internal file identifiers available. ERROR_NO_MORE_SEARCH_HANDLES
+114 The target internal file identifier is incorrect. ERROR_INVALID_TARGET_HANDLE
+
+117 The IOCTL call made by the application program is not correct. ERROR_INVALID_CATEGORY
+118 The verify-on-write switch parameter value is not correct. ERROR_INVALID_VERIFY_SWITCH
+119 The system does not support the command requested. ERROR_BAD_DRIVER_LEVEL
+120 This function is not supported on this system. ERROR_CALL_NOT_IMPLEMENTED
+121 The semaphore timeout period has expired. ERROR_SEM_TIMEOUT
+122 The data area passed to a system call is too small. ERROR_INSUFFICIENT_BUFFER
+123 The filename, directory name, or volume label syntax isincorrect.ERROR_INVALID_NAME
+124 The system call level is not correct. ERROR_INVALID_LEVEL
+125 The disk has no volume label. ERROR_NO_VOLUME_LABEL
+126 The specified module could not be found. ERROR_MOD_NOT_FOUND
+127 The specified procedure could not be found. ERROR_PROC_NOT_FOUND
+128 There are no child processes to wait for. ERROR_WAIT_NO_CHILDREN
+129 The %1 application cannot be run in Win32 mode. ERROR_CHILD_NOT_COMPLETE
+130 Attempt to use a file handle to an open disk partition for anoperation other than raw disk I/O.ERROR_DIRECT_ACCESS_HANDLE
+131 An attempt was made to move the file pointer before thebeginning of the file.ERROR_NEGATIVE_SEEK
+132 The file pointer cannot be set on the specified device or file. ERROR_SEEK_ON_DEVICE
+133 A JOIN or SUBST command cannot be used for a drive thatcontains previously joined drives.ERROR_IS_JOIN_TARGET
+134 An attempt was made to use a JOIN or SUBST command on adrive that has already been joined.ERROR_IS_JOINED
+135 An attempt was made to use a JOIN or SUBST command on adrive that has already been substituted.ERROR_IS_SUBSTED
+136 The system tried to delete the JOIN of a drive that is not joined. ERROR_NOT_JOINED
+137 The system tried to delete the substitution of a drive that is notsubstituted.ERROR_NOT_SUBSTED
+138 The system tried to join a drive to a directory on a joined drive. ERROR_JOIN_TO_JOIN
+139 The system tried to substitute a drive to a directory on asubstituted drive.ERROR_SUBST_TO_SUBST
+140 The system tried to join a drive to a directory on a substituteddrive.ERROR_JOIN_TO_SUBST
+141 The system tried to SUBST a drive to a directory on a joineddrive.ERROR_SUBST_TO_JOIN
+142 The system cannot perform a JOIN or SUBST at this time. ERROR_BUSY_DRIVE
+143 The system cannot join or substitute a drive to or for a directoryon the same drive.ERROR_SAME_DRIVE
+144 The directory is not a subdirectory of the root directory. ERROR_DIR_NOT_ROOT
+145 The directory is not empty. ERROR_DIR_NOT_EMPTY
+146 The path specified is being used in a substitute. ERROR_IS_SUBST_PATH
+147 Not enough resources are available to process this command. ERROR_IS_JOIN_PATH
+148 The path specified cannot be used at this time. ERROR_PATH_BUSY
+149 An attempt was made to join or substitute a drive for which adirectory on the drive is the target of a previous substitute.ERROR_IS_SUBST_TARGET
+150 System trace information was not specified in yourCONFIG.SYS file, or tracing is disallowed.ERROR_SYSTEM_TRACE
+151 The number of specified semaphore events forDosMuxSemWait is not correct.ERROR_INVALID_EVENT_COUNT
+152 DosMuxSemWait did not execute; too many semaphores arealready set.ERROR_TOO_MANY_MUXWAITERS
+153 The DosMuxSemWait list is not correct. ERROR_INVALID_LIST_FORMAT
+154 The volume label you entered exceeds the label character limitof the target file system.ERROR_LABEL_TOO_LONG
+155 Cannot create another thread. ERROR_TOO_MANY_TCBS
+156 The recipient process has refused the signal. ERROR_SIGNAL_REFUSED
+157 The segment is already discarded and cannot be locked. ERROR_DISCARDED
+158 The segment is already unlocked. ERROR_NOT_LOCKED
+159 The address for the thread ID is not correct. ERROR_BAD_THREADID_ADDR
+160 The argument string passed to DosExecPgm is not correct. ERROR_BAD_ARGUMENTS
+161 The specified path is invalid. ERROR_BAD_PATHNAME
+162 A signal is already pending. ERROR_SIGNAL_PENDING
+
+164 No more threads can be created in the system. ERROR_MAX_THRDS_REACHED
+
+167 Unable to lock a region of a file. ERROR_LOCK_FAILED
+
+170 The requested resource is in use. ERROR_BUSY
+
+173 A lock request was not outstanding for the supplied cancelregion.ERROR_CANCEL_VIOLATION
+174 The file system does not support atomic changes to the locktype.ERROR_ATOMIC_LOCKS_NOT_SUPPORTED
+
+180 The system detected a segment number that was not correct. ERROR_INVALID_SEGMENT_NUMBER
+
+182 The operating system cannot run %1. ERROR_INVALID_ORDINAL
+183 Cannot create a file when that file already exists. ERROR_ALREADY_EXISTS
+
+186 The flag passed is not correct. ERROR_INVALID_FLAG_NUMBER
+187 The specified system semaphore name was not found. ERROR_SEM_NOT_FOUND
+188 The operating system cannot run %1. ERROR_INVALID_STARTING_CODESEG
+189 The operating system cannot run %1. ERROR_INVALID_STACKSEG
+190 The operating system cannot run %1. ERROR_INVALID_MODULETYPE
+191 Cannot run %1 in Win32 mode. ERROR_INVALID_EXE_SIGNATURE
+192 The operating system cannot run %1. ERROR_EXE_MARKED_INVALID
+193 %1 is not a valid Win32 application. ERROR_BAD_EXE_FORMAT
+194 The operating system cannot run %1. ERROR_ITERATED_DATA_EXCEEDS_64k
+195 The operating system cannot run %1. ERROR_INVALID_MINALLOCSIZE
+196 The operating system cannot run this application program. ERROR_DYNLINK_FROM_INVALID_RING
+197 The operating system is not presently configured to run thisapplication.ERROR_IOPL_NOT_ENABLED
+198 The operating system cannot run %1. ERROR_INVALID_SEGDPL
+199 The operating system cannot run this application program. ERROR_AUTODATASEG_EXCEEDS_64k
+200 The code segment cannot be greater than or equal to 64K. ERROR_RING2SEG_MUST_BE_MOVABLE
+201 The operating system cannot run %1. ERROR_RELOC_CHAIN_XEEDS_SEGLIM
+202 The operating system cannot run %1. ERROR_INFLOOP_IN_RELOC_CHAIN
+203 The system could not find the environment option that wasentered.ERROR_ENVVAR_NOT_FOUND
+
+205 No process in the command subtree has a signal handler. ERROR_NO_SIGNAL_SENT
+206 The filename or extension is too long. ERROR_FILENAME_EXCED_RANGE
+207 The ring 2 stack is in use. ERROR_RING2_STACK_IN_USE
+208 The global filename characters, * or ?, are entered incorrectly or too many global filename characters are specified.ERROR_META_EXPANSION_TOO_LONG
+209 The signal being posted is not correct. ERROR_INVALID_SIGNAL_NUMBER
+210 The signal handler cannot be set. ERROR_THREAD_1_INACTIVE
+
+212 The segment is locked and cannot be reallocated. ERROR_LOCKED
+
+214 Too many dynamic-link modules are attached to this program or dynamic-link module.ERROR_TOO_MANY_MODULES
+215 Cannot nest calls to LoadModule. ERROR_NESTING_NOT_ALLOWED
+216 The image file %1 is valid, but is for a machine type other thanthe current machine.ERROR_EXE_MACHINE_TYPE_MISMATCH
+
+230 The pipe state is invalid. ERROR_BAD_PIPE
+231 All pipe instances are busy. ERROR_PIPE_BUSY
+232 The pipe is being closed. ERROR_NO_DATA
+233 No process is on the other end of the pipe. ERROR_PIPE_NOT_CONNECTED
+234 More data is available. ERROR_MORE_DATA
+
+240 The session was canceled. ERROR_VC_DISCONNECTED
+
+254 The specified extended attribute name was invalid. ERROR_INVALID_EA_NAME
+255 The extended attributes are inconsistent. ERROR_EA_LIST_INCONSISTENT
+
+258 The wait operation timed out. WAIT_TIMEOUT
+259 No more data is available. ERROR_NO_MORE_ITEMS
+
+266 The copy functions cannot be used. ERROR_CANNOT_COPY
+267 The directory name is invalid. ERROR_DIRECTORY
+
+275 The extended attributes did not fit in the buffer. ERROR_EAS_DIDNT_FIT
+276 The extended attribute file on the mounted file system iscorrupt.ERROR_EA_FILE_CORRUPT
+277 The extended attribute table file is full. ERROR_EA_TABLE_FULL
+278 The specified extended attribute handle is invalid. ERROR_INVALID_EA_HANDLE
+
+282 The mounted file system does not support extended attributes. ERROR_EAS_NOT_SUPPORTED
+
+288 Attempt to release mutex not owned by caller. ERROR_NOT_OWNER
+
+298 Too many posts were made to a semaphore. ERROR_TOO_MANY_POSTS
+299 Only part of a ReadProcessMemory or WriteProcessMemoryrequest was completed.ERROR_PARTIAL_COPY
+300 The oplock request is denied. ERROR_OPLOCK_NOT_GRANTED
+301 An invalid oplock acknowledgment was received by the system. ERROR_INVALID_OPLOCK_PROTOCOL
+
+317 The system cannot find message text for message number0x%1 in the message file for %2.ERROR_MR_MID_NOT_FOUND
+
+487 Attempt to access invalid address. ERROR_INVALID_ADDRESS
+
+534 Arithmetic result exceeded 32 bits. ERROR_ARITHMETIC_OVERFLOW
+535 There is a process on other end of the pipe. ERROR_PIPE_CONNECTED
+536 Waiting for a process to open the other end of the pipe. ERROR_PIPE_LISTENING
+
+994 Access to the extended attribute was denied. ERROR_EA_ACCESS_DENIED
+995 The I/O operation has been aborted because of either a threadexit or an application request.ERROR_OPERATION_ABORTED
+996 Overlapped I/O event is not in a signaled state. ERROR_IO_INCOMPLETE
+997 Overlapped I/O operation is in progress. ERROR_IO_PENDING
+998 Invalid access to memory location. ERROR_NOACCESS
+999 Error performing inpage operation.  ERROR_SWAPERROR
+
+/**
+ * https://docs.automic.com/documentation/webhelp/english/AWA/11.2/AE/11.2/All Guides/Content/ucaaqc.htm 1/5
+ */

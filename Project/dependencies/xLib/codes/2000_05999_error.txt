@@ -1,0 +1,209 @@
+2000 The pixel format is invalid. ERROR_INVALID_PIXEL_FORMAT
+2001 The specified driver is invalid. ERROR_BAD_DRIVER
+2002 The window style or class attribute isinvalid for this operation.ERROR_INVALID_WINDOW_STYLE
+2003 The requested metafile operation is notsupported.ERROR_METAFILE_NOT_SUPPORTED
+2004 The requested transformation operationis not supported.ERROR_TRANSFORM_NOT_SUPPORTED
+2005 The requested clipping operation is notsupported.ERROR_CLIPPING_NOT_SUPPORTED
+
+2010 The specified color managementmodule is invalid.ERROR_INVALID_CMM
+2011 The specified color profile is invalid. ERROR_INVALID_PROFILE
+2012 The specified tag was not found. ERROR_TAG_NOT_FOUND
+2013 A required tag is not present. ERROR_TAG_NOT_PRESENT
+2014 The specified tag is already present. ERROR_DUPLICATE_TAG
+2015 The specified color profile is notassociated with any device.ERROR_PROFILE_NOT_ASSOCIATED_WITH_DEVICE
+2016 The specified color profile was notfound.ERROR_PROFILE_NOT_FOUND
+2017 The specified color space is invalid. ERROR_INVALID_COLORSPACE
+2018 Image Color Management is notenabled.ERROR_ICM_NOT_ENABLED
+2019 There was an error while deleting thecolor transform.ERROR_DELETING_ICM_XFORM
+2020 The specified color transform is invalid. ERROR_INVALID_TRANSFORM
+2021 The specified transform does not matchthe bitmap's color space.ERROR_COLORSPACE_MISMATCH
+2022 The specified named color index is notpresent in the profile.ERROR_INVALID_COLORINDEX
+
+2108 The network connection was madesuccessfully, but the user had to beprompted for a password other thanthe one originally specified.ERROR_CONNECTED_OTHER_PASSWORD
+
+2202 The specified username is invalid. ERROR_BAD_USERNAME
+
+2250 This network connection does not exist. ERROR_NOT_CONNECTED
+
+2401 This network connection has files openor requests pending.ERROR_OPEN_FILES
+2402 Active connections still exist. ERROR_ACTIVE_CONNECTIONS
+
+2404 The device is in use by an activeprocess and cannot be disconnected.ERROR_DEVICE_IN_USE
+
+3000 The specified print monitor is unknown. ERROR_UNKNOWN_PRINT_MONITOR
+3001 The specified printer driver is currentlyin use.ERROR_PRINTER_DRIVER_IN_USE
+3002 The spool file was not found. ERROR_SPOOL_FILE_NOT_FOUND
+3003 A StartDocPrinter call was not issued. ERROR_SPL_NO_STARTDOC
+3004 An AddJob call was not issued. ERROR_SPL_NO_ADDJOB
+3005 The specified print processor hasalready been installed.ERROR_PRINT_PROCESSOR_ALREADY_INSTALLED
+3006 The specified print monitor has alreadybeen installed.ERROR_PRINT_MONITOR_ALREADY_INSTALLED
+3007 The specified print monitor does nothave the required functions.ERROR_INVALID_PRINT_MONITOR
+3008 The specified print monitor is currentlyin use.ERROR_PRINT_MONITOR_IN_USE
+3009 The requested operation is not allowedwhen there are jobs queued to theprinter.ERROR_PRINTER_HAS_JOBS_QUEUED
+3010 The requested operation is successful.Changes will not be effective until thesystem reboots.ERROR_SUCCESS_REBOOT_REQUIRED
+3011 The requested operation is successful.Changes will not be effective until theservice is restarted.ERROR_SUCCESS_RESTART_REQUIRED
+3012 No printers were found. ERROR_PRINTER_NOT_FOUND4000 WINS encountered an error whileprocessing the command.ERROR_WINS_INTERNAL
+
+4001 The local WINS cannot be deleted. ERROR_CAN_NOT_DEL_LOCAL_WINS
+4002 The importation from the file failed. ERROR_STATIC_INIT
+4003 The backup failed. Was a full backupdone before?ERROR_INC_BACKUP
+4004 The backup failed. Check the directoryto which you are backing the database.ERROR_FULL_BACKUP
+4005 The name does not exist in the WINSdatabase.ERROR_REC_NON_EXISTENT
+4006 Replication with a nonconfiguredpartner is not allowed.ERROR_RPL_NOT_ALLOWED
+
+4100 The DHCP client has obtained an IPaddress that is already in use on thenetwork. The local interface will bedisabled until the DHCP client canobtain a new address.ERROR_DHCP_ADDRESS_CONFLICT
+
+4200 The GUID passed was not recognizedas valid by a WMI data provider.ERROR_WMI_GUID_NOT_FOUND
+4201 The instance name passed was notrecognized as valid by a WMI dataprovider.ERROR_WMI_INSTANCE_NOT_FOUND
+4202 The data item ID passed was notrecognized as valid by a WMI dataprovider.ERROR_WMI_ITEMID_NOT_FOUND
+4203 The WMI request could not becompleted and should be retried.ERROR_WMI_TRY_AGAIN
+4204 The WMI data provider could not belocated.ERROR_WMI_DP_NOT_FOUND
+4205 The WMI data provider references aninstance set that has not beenregistered.ERROR_WMI_UNRESOLVED_INSTANCE_REF
+4206 The WMI data block or eventnotification has already been enabled.ERROR_WMI_ALREADY_ENABLED
+4207 The WMI data block is no longeravailable.ERROR_WMI_GUID_DISCONNECTED
+4208 The WMI data service is not available. ERROR_WMI_SERVER_UNAVAILABLE
+4209 The WMI data provider failed to carryout the request.ERROR_WMI_DP_FAILED
+4210 The WMI MOF information is not valid. ERROR_WMI_INVALID_MOF
+4211 The WMI registration information is notvalid.ERROR_WMI_INVALID_REGINFO
+4212 The WMI data block or eventnotification has already been disabled.ERROR_WMI_ALREADY_DISABLED
+4213 The WMI data item or data block isread only.ERROR_WMI_READ_ONLY
+4214 The WMI data item or data block couldnot be changed.ERROR_WMI_SET_FAILURE
+
+4300 The media identifier does not representa valid medium.ERROR_INVALID_MEDIA
+4301 The library identifier does not representa valid library.ERROR_INVALID_LIBRARY
+4302 The media pool identifier does notrepresent a valid media pool.ERROR_INVALID_MEDIA_POOL
+4303 The drive and medium are notcompatible or exist in different libraries.ERROR_DRIVE_MEDIA_MISMATCH
+4304 The medium currently exists in anoffline library and must be online toperform this operation.ERROR_MEDIA_OFFLINE
+4305 The operation cannot be performed onan offline library.ERROR_LIBRARY_OFFLINE
+4306 The library, drive, or media pool isempty.ERROR_EMPTY
+4307 The library, drive, or media pool mustbe empty to perform this operation.ERROR_NOT_EMPTY
+4308 No media is currently available in thismedia pool or library.ERROR_MEDIA_UNAVAILABLE
+4309 A resource required for this operation isdisabled.ERROR_RESOURCE_DISABLED
+4310 The media identifier does not representa valid cleaner.ERROR_INVALID_CLEANER
+4311 The drive cannot be cleaned or doesnot support cleaning.ERROR_UNABLE_TO_CLEAN
+4312 The object identifier does not representa valid object.ERROR_OBJECT_NOT_FOUND
+4313 Unable to read from or write to thedatabase.ERROR_DATABASE_FAILURE
+4314 The database is full. ERROR_DATABASE_FULL
+4315 The medium is not compatible with thedevice or media pool.ERROR_MEDIA_INCOMPATIBLE
+4316 The resource required for this operationdoes not exist.ERROR_RESOURCE_NOT_PRESENT
+4317 The operation identifier is not valid. ERROR_INVALID_OPERATION
+4318 The media is not mounted or ready foruse.ERROR_MEDIA_NOT_AVAILABLE
+4319 The device is not ready for use. ERROR_DEVICE_NOT_AVAILABLE
+4320 The operator or administrator hasrefused the request.ERROR_REQUEST_REFUSED
+4321 The drive identifier does not representa valid drive.ERROR_INVALID_DRIVE_OBJECT
+4322 Library is full. No slot is available foruse.ERROR_LIBRARY_FULL
+4323 The transport cannot access themedium.ERROR_MEDIUM_NOT_ACCESSIBLE
+4324 Unable to load the medium into thedrive.ERROR_UNABLE_TO_LOAD_MEDIUM
+4325 Unable to retrieve status about thedrive.ERROR_UNABLE_TO_INVENTORY_DRIVE
+4326 Unable to retrieve status about the slot. ERROR_UNABLE_TO_INVENTORY_SLOT
+4327 Unable to retrieve status about thetransport.ERROR_UNABLE_TO_INVENTORY_TRANSPORT
+4328 Cannot use the transport because it isalready in use.ERROR_TRANSPORT_FULL
+4329 Unable to open or close the inject/ejectport.ERROR_CONTROLLING_IEPORT
+4330 Unable to eject the media because it isin a drive.ERROR_UNABLE_TO_EJECT_MOUNTED_MEDIA
+4331 A cleaner slot is already reserved. ERROR_CLEANER_SLOT_SET
+4332 A cleaner slot is not reserved. ERROR_CLEANER_SLOT_NOT_SET
+4333 The cleaner cartridge has performedthe maximum number of drivecleanings.ERROR_CLEANER_CARTRIDGE_SPENT
+4334 Unexpected on-medium identifier. ERROR_UNEXPECTED_OMID
+4335 The last remaining item in this group orresource cannot be deleted.ERROR_CANT_DELETE_LAST_ITEM
+4336 The message provided exceeds themaximum size allowed for thisparameter.ERROR_MESSAGE_EXCEEDS_MAX_SIZE
+4337 The volume contains system or pagingfiles.ERROR_VOLUME_CONTAINS_SYS_FILES
+4338 The media type cannot be removedfrom this library since at least one drivein the library reports it can support thismedia type.ERROR_INDIGENOUS_TYPE
+4339 This offline media cannot be mountedon this system since no enabled drivesare present which can be used.ERROR_NO_SUPPORTING_DRIVES
+4350 The remote storage service was notable to recall the file.ERROR_FILE_OFFLINE
+4351 The remote storage service is notoperational at this time.ERROR_REMOTE_STORAGE_NOT_ACTIVE
+4352 The remote storage serviceencountered a media error.ERROR_REMOTE_STORAGE_MEDIA_ERROR
+
+4390 The file or directory is not a reparsepoint.ERROR_NOT_A_REPARSE_POINT
+4391 The reparse point attribute cannot beset because it conflicts with an existingattribute.ERROR_REPARSE_ATTRIBUTE_CONFLICT
+4392 The data present in the reparse pointbuffer is invalid.ERROR_INVALID_REPARSE_DATA
+4393 The tag present in the reparse pointbuffer is invalid.ERROR_REPARSE_TAG_INVALID
+4394 There is a mismatch between the tagspecified in the request and the tagpresent in the reparse point.ERROR_REPARSE_TAG_MISMATCH
+
+5001 The cluster resource cannot be movedto another group because otherresources are dependent on it.ERROR_DEPENDENT_RESOURCE_EXISTS
+5002 The cluster resource dependencycannot be found.ERROR_DEPENDENCY_NOT_FOUND
+5003 The cluster resource cannot be madedependent on the specified resourcebecause it is already dependent.ERROR_DEPENDENCY_ALREADY_EXISTS
+5004 The cluster resource is not online. ERROR_RESOURCE_NOT_ONLINE
+5005 A cluster node is not available for thisoperation.ERROR_HOST_NODE_NOT_AVAILABLE
+5006 The cluster resource is not available. ERROR_RESOURCE_NOT_AVAILABLE
+5007 The cluster resource could not befound.ERROR_RESOURCE_NOT_FOUND
+5008 The cluster is being shut down. ERROR_SHUTDOWN_CLUSTER
+5009 A cluster node cannot be evicted fromthe cluster while it is online.ERROR_CANT_EVICT_ACTIVE_NODE
+5010 The object already exists. ERROR_OBJECT_ALREADY_EXISTS
+5011 The object is already in the list. ERROR_OBJECT_IN_LIST
+5012 The cluster group is not available forany new requests.ERROR_GROUP_NOT_AVAILABLE
+5013 The cluster group could not be found. ERROR_GROUP_NOT_FOUND
+5014 The operation could not be completedbecause the cluster group is not online.ERROR_GROUP_NOT_ONLINE
+5015 The cluster node is not the owner of theresource.ERROR_HOST_NODE_NOT_RESOURCE_OWNER
+5016 The cluster node is not the owner of thegroup.ERROR_HOST_NODE_NOT_GROUP_OWNER
+5017 The cluster resource could not becreated in the specified resourcemonitor.ERROR_RESMON_CREATE_FAILED
+5018 The cluster resource could not bebrought online by the resource monitor.ERROR_RESMON_ONLINE_FAILED
+5019 The operation could not be completedbecause the cluster resource is online.ERROR_RESOURCE_ONLINE
+5020 The cluster resource could not bedeleted or brought offline because it isthe quorum resource.ERROR_QUORUM_RESOURCE
+5021 The cluster could not make thespecified resource a quorum resourcebecause it is not capable of being aquorum resource.ERROR_NOT_QUORUM_CAPABLE
+5022 The cluster software is shutting down. ERROR_CLUSTER_SHUTTING_DOWN
+5023 The group or resource is not in thecorrect state to perform the requestedoperation.ERROR_INVALID_STATE
+5024 The properties were stored but not allchanges will take effect until the nexttime the resource is brought online.ERROR_RESOURCE_PROPERTIES_STORED
+5025 The cluster could not make thespecified resource a quorum resourcebecause it does not belong to a sharedstorage class.ERROR_NOT_QUORUM_CLASS
+5026 The cluster resource could not bedeleted since it is a core resource.ERROR_CORE_RESOURCE
+5027 The quorum resource failed to comeonline.ERROR_QUORUM_RESOURCE_ONLINE_FAILED
+5028 The quorum log could not be created ormounted successfully.ERROR_QUORUMLOG_OPEN_FAILED
+5029 The cluster log is corrupt. ERROR_CLUSTERLOG_CORRUPT
+5030 The record could not be written to thecluster log since it exceeds themaximum size.ERROR_CLUSTERLOG_RECORD_EXCEEDS_MAXSIZE
+5031 The cluster log exceeds its maximumsize.ERROR_CLUSTERLOG_EXCEEDS_MAXSIZE
+5032 No checkpoint record was found in thecluster log.ERROR_CLUSTERLOG_CHKPOINT_NOT_FOUND
+5033 The minimum required disk spaceneeded for logging is not available.ERROR_CLUSTERLOG_NOT_ENOUGH_SPACE
+
+5035 A cluster network is not available forthis operation.ERROR_NETWORK_NOT_AVAILABLE
+5036 A cluster node is not available for thisoperation.ERROR_NODE_NOT_AVAILABLE
+5037 All cluster nodes must be running toperform this operation.ERROR_ALL_NODES_NOT_AVAILABLE
+5038 A cluster resource failed. ERROR_RESOURCE_FAILED
+5039 The cluster node is not valid. ERROR_CLUSTER_INVALID_NODE
+5040 The cluster node already exists. ERROR_CLUSTER_NODE_EXISTS
+5041 A node is in the process of joining thecluster.ERROR_CLUSTER_JOIN_IN_PROGRESS
+5042 The cluster node was not found. ERROR_CLUSTER_NODE_NOT_FOUND
+5043 The cluster local node information wasnot found.ERROR_CLUSTER_LOCAL_NODE_NOT_FOUND
+5044 The cluster network already exists. ERROR_CLUSTER_NETWORK_EXISTS
+5045 The cluster network was not found. ERROR_CLUSTER_NETWORK_NOT_FOUND
+5046 The cluster network interface alreadyexists.ERROR_CLUSTER_NETINTERFACE_EXISTS
+5047 The cluster network interface was notfound.ERROR_CLUSTER_NETINTERFACE_NOT_FOUND
+5048 The cluster request is not valid for thisobject.ERROR_CLUSTER_INVALID_REQUEST
+5049 The cluster network provider is notvalid.ERROR_CLUSTER_INVALID_NETWORK_PROVIDER
+5050 The cluster node is down. ERROR_CLUSTER_NODE_DOWN
+5051 The cluster node is not reachable. ERROR_CLUSTER_NODE_UNREACHABLE
+5052 The cluster node is not a member ofthe cluster.ERROR_CLUSTER_NODE_NOT_MEMBER
+5053 A cluster join operation is not inprogress.ERROR_CLUSTER_JOIN_NOT_IN_PROGRESS
+5054 The cluster network is not valid. ERROR_CLUSTER_INVALID_NETWORK
+
+5056 The cluster node is up. ERROR_CLUSTER_NODE_UP
+5057 The cluster IP address is already inuse.ERROR_CLUSTER_IPADDR_IN_USE
+5058 The cluster node is not paused. ERROR_CLUSTER_NODE_NOT_PAUSED
+5059 No cluster security context is available. ERROR_CLUSTER_NO_SECURITY_CONTEXT
+5060 The cluster network is not configuredfor internal cluster communication.ERROR_CLUSTER_NETWORK_NOT_INTERNAL
+5061 The cluster node is already up. ERROR_CLUSTER_NODE_ALREADY_UP
+5062 The cluster node is already down. ERROR_CLUSTER_NODE_ALREADY_DOWN
+5063 The cluster network is already online. ERROR_CLUSTER_NETWORK_ALREADY_ONLINE
+5064 The cluster network is already offline. ERROR_CLUSTER_NETWORK_ALREADY_OFFLINE
+5065 The cluster node is already a memberof the cluster.ERROR_CLUSTER_NODE_ALREADY_MEMBER
+5066 The cluster network is the only oneconfigured for internal clustercommunication between two or moreactive cluster nodes. The internalcommunication capability cannot beremoved from the network.ERROR_CLUSTER_LAST_INTERNAL_NETWORK
+5067 One or more cluster resources dependon the network to provide service toclients. The client access capabilitycannot be removed from the network.ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS
+5068 This operation cannot be performed onthe cluster resource as it the quorumresource. You cannot bring the quorumresource offline or modify its possibleowners list.ERROR_INVALID_OPERATION_ON_QUORUM
+5069 The cluster quorum resource is notallowed to have any dependencies.ERROR_DEPENDENCY_NOT_ALLOWED
+5070 The cluster node is paused. ERROR_CLUSTER_NODE_PAUSED
+5071 The cluster resource cannot be broughtonline. The owner node cannot run this resource.ERROR_NODE_CANT_HOST_RESOURCE
+5072 The cluster node is not ready toperform the requested operation.ERROR_CLUSTER_NODE_NOT_READY
+5073 The cluster node is shutting down. ERROR_CLUSTER_NODE_SHUTTING_DOWN
+5074 The cluster join operation was aborted. ERROR_CLUSTER_JOIN_ABORTED
+5075 The cluster join operation failed due toincompatible software versionsbetween the joining node and its sponsor.ERROR_CLUSTER_INCOMPATIBLE_VERSIONS
+5076 This resource cannot be createdbecause the cluster has reached thelimit on the number of resources it canmonitor.ERROR_CLUSTER_MAXNUM_OF_RESOURCES_EXCEEDED
+5077 The system configuration changedduring the cluster join or formoperation. The join or form operationwas aborted.ERROR_CLUSTER_SYSTEM_CONFIG_CHANGED
+5078 The specified resource type was notfound.ERROR_CLUSTER_RESOURCE_TYPE_NOT_FOUND
+5079 The specified node does not support aresource of this type. This can be dueto version inconsistencies or due to theabsence of the resource DLL on thisnode.ERROR_CLUSTER_RESTYPE_NOT_SUPPORTED
+5080 The specified resource name issupported by this resource DLL. Thiscan be due to a bad (or changed) namesupplied to the resource DLL.ERROR_CLUSTER_RESNAME_NOT_FOUND
+5081 No authentication package could beregistered with the RPC server.ERROR_CLUSTER_NO_RPC_PACKAGES_REGISTERED
+5082 You cannot bring the group onlinebecause the owner of the group is notin the preferred list for the group. To change the owner node for the group,move the group.ERROR_CLUSTER_OWNER_NOT_IN_PREFLIST
+5083 The join operation failed because thecluster database sequence number haschanged or is incompatible with thelocker node. This can happen during ajoin operation if the cluster databasewas changing during the join.ERROR_CLUSTER_DATABASE_SEQMISMATCH
+5084 The resource monitor will not allow thefail operation to be performed while theresource is in its current state. This canhappen if the resource is in a pendingstate.ERROR_RESMON_INVALID_STATE
+
+/**
+ * https://docs.automic.com/documentation/webhelp/english/AWA/11.2/AE/11.2/All Guides/Content/ucaaqc.htm 1/5
+ */
